@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trường THPT Chuyên Lê Hồng Phong</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="trangchu.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="container">
+      <header>
+        <img class="logo" src="img/logo.jpg" alt="">
+        <div class="huychuong">
+            <img src="img/huychuong1.png" alt="">
+        </div>
+        <div class="header-ip">
+          <div class="phude">
+            <a href="lienhe.html">
+               <i class="fa-regular fa-envelope"></i>
+                Liên Hệ
+            </a>
+            <a href="login.html">
+                <i class="fa-solid fa-user"></i>
+                Đăng Nhập
+            </a>
+        </div>
+          <div class="input">
+              <input placeholder="Tìm kiếm...." width="100px" height="50px" type="search">
+              <div class="iconsearch">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+               </div>
+          </div>
+        </div>
+        <div class="main-login">
+          <label for="toggle-sidebar"><i class="fa-solid fa-bars"></i></label>
+          <input type="checkbox" id="toggle-sidebar">
+          <div class="sidebar">
+              <ul class="menu-list">
+                  <li>
+                      <a href="gioithieu.html">GIỚI THIỆU</a>
+                      <i class="fa-solid fa-plus"></i>
+                      <ul class="submenu-list">
+                          <li><a href="lichsutruong.html">Lịch sử trường</a></li>
+                          <li><a href="truyenthong.html">Truyền thống trường</a></li>
+                          <li><a href="phanthuong.html">Phần thưởng-Danh hiệu</a></li>
+                      </ul>
+                  </li>       
+                  <li><a href="tochuc.html">TỔ CHỨC</a>
+                      <i class="fa-solid fa-plus"></i>
+                      <ul class="submenu-list">
+                          <li><a href="#">Đảng Bộ</a></li>
+                          <li><a href="#">Ban Giám Hiệu</a></li>
+                          <li><a href="#">BCH Công Đoàn</a></li>
+                      </ul>
+                  </li>    
+                  <li class="">
+                       <a href="">THÔNG BÁO-TIN TỨC</a>
+                       <i class="fa-solid fa-plus"></i>
+                       <ul class="submenu-list">
+                          <li><a href="#">Thông Tin Điều Hành</a></li>
+                          <li><a href="#">Tin Tức Nhà Trường</a></li>
+                          <li><a href="#">Hoạt Động HS</a></li>
+                      </ul>                     
+                  </li>
+                  <li>
+                      <a href="trangchinh.html">HƯỚNG NGHIỆP&TUYỂN SINH</a>
+                      <i class="fa-solid fa-plus"></i>
+                      <ul class="submenu-list">
+                          <li><a href="#">Hoạt Động Tuyển Sinh</a></li>
+                          <li><a href="#">Hoạt Động Hướng Nghiệp</a></li>
+                          <li><a href="#">Thông Tin Du Học</a></li>
+                          <li><a href="#">Tuyển Sinh Vào Lớp 10</a></li>
+                      </ul>       
+                  </li>
+                  <li>
+                      <a href="banQLNT.html">KHU NỘI TRÚ</a>
+                      <i class="fa-solid fa-plus"></i>
+                      <ul class="submenu-list">
+                          <li><a href="#">Ban Quản Lí</a></li>
+                          <li><a href="#">Nội Quy Khu Nội Trú</a></li>
+                          <li><a href="#">Hoạt Động Nội Trú</a></li>
+                      </ul>       
+                  </li>
+                  <li><a href="#">TÀI NGUYÊN</a>
+                      <i class="fa-solid fa-plus"></i>
+                  </li>
+                  <li><a href="gopy.html">GÓP Ý</a>
+                      <i class="fa-solid fa-plus"></i>
+                  </li>
+              </ul>
+          </div>
+      </div>
+            
+        
+    </header>
+    <nav>
+            <ul class="menu">
+                <li><a href="index.html"><i class="fa-solid fa-house" style="color: #fff; padding-right: 15px;"></i>TRANG CHỦ</a></li>
+                <li>
+                    <a href="gioithieu.html">GIỚI THIỆU
+                        <i class="fa-solid fa-angle-down" style="color: #fafafa;"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li><a href="lichsutruong.html">Lịch sử trường</a></li>
+                        <li><a href="truyenthong.html">Truyền thống trường</a></li>
+                        <li><a href="phanthuong.html">Phần thưởng-Danh hiệu</a></li>
+                    </ul>
+                </li>       
+                <li><a href="#">TỔ CHỨC
+                    <i class="fa-solid fa-angle-down" style="color: #fafafa;"></i>
+                </a>
+                    <ul class="submenu">
+                        <li><a href="#">Đảng Bộ</a></li>
+                        <li><a href="#">Ban Giám Hiệu</a></li>
+                        <li><a href="#">BCH Công Đoàn</a></li>
+                    </ul>
+                </li>    
+                <li class="lienhe">
+                     <a href="">THÔNG BÁO-TIN TỨC
+                        <i class="fa-solid fa-angle-down" style="color: #fafafa;"></i>
+                     </a>
+                     <ul class="submenu">
+                        <li><a href="#">Thông Tin Điều Hành</a></li>
+                        <li><a href="#">Tin Tức Nhà Trường</a></li>
+                        <li><a href="#">Hoạt Động HS</a></li>
+                    </ul>                     
+                </li>
+                <li>
+                    <a href="trangchinh.html">HƯỚNG NGHIỆP&TUYỂN SINH</a>
+                    <ul class="submenu">
+                        <li><a href="#">Hoạt Động Tuyển Sinh</a></li>
+                        <li><a href="#">Hoạt Động Hướng Nghiệp</a></li>
+                        <li><a href="#">Thông Tin Du Học</a></li>
+                        <li><a href="#">Tuyển Sinh Vào Lớp 10</a></li>
+                    </ul>       
+                </li>
+                <li>
+                    <a href="banQLNT.html">KHU NỘI TRÚ</a>
+                    <ul class="submenu">
+                        <li><a href="">Ban Quản Lí</a></li>
+                        <li><a href="#">Nội Quy Khu Nội Trú</a></li>
+                        <li><a href="#">Hoạt Động Nội Trú</a></li>
+                    </ul>       
+                </li>
+                <li>
+                  <a href="#">TÀI NGUYÊN</a>
+                  <ul class="submenu">
+                    <li><a href="#">Tư liệu dạy và học</a></li>
+                    <li><a href="#">Sáng tạo văn học</a></li>
+                    <li><a href="#">Thư viện video</a></li>
+                  </ul>
+                </li>
+                <li><a href="gopy.html">GÓP Ý</a>  
+                </li>
+            </ul>
+
+            <div class="led">
+              <marquee behavior="
+                    " direction="" onmouseover="this.stop()" onmouseout="this.start()"><i class="fa-solid fa-star"
+                  style="color: #FFD43B;"></i>SỨ MỆNH: PHÁT HIỆN, BỒI DƯỠNG HỌC SINH GIỎI GÓP PHẦN ĐÀO TẠO HIỀN TÀI <i
+                  class="fa-solid fa-star" style="color: #FFD43B;"></i> GIÁ TRỊ CỐT LÕI: TRÍ TUỆ, NHÂN CÁCH, TRÁCH NHIỆM, TỰ
+                TÔN, SÁNG TẠO <i class="fa-solid fa-star" style="color: #FFD43B;"></i> TẦM NHÌN XÂY DỰNG TRƯỜNG CHUYÊN CHẤT
+                LƯỢNG CAO, ĐẠT CHUẨN, VƯƠN TẦM KHU VỰC</marquee>
+            </div>
+            </nav>
+        
+            <!--   hiệu ứng slideshow -->
+            <div style="margin-bottom :30px ;">
+        
+              <div class="slideshow-container" slyte=" width:100%; height:10vmax;">
+        
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img src="img/2022_04_10_09_33_10_bia web t4.png" style="width:100%;height:30vmax;">
+                </div>
+        
+                <div class="mySlides fade">
+                  <img src="img/2022_03_01_16_03_32_banner web t3.png" style="width:100%; height:30vmax;">
+                </div>
+        
+                <div class="mySlides fade">
+                  <img src="img/2023_06_05_09_14_20_2021_06_03_15_35_43_BANNER WEB T6.png" style="width:100%; height:30vmax;">
+                </div>
+        
+                <div class="mySlides fade">
+                  <img src="img/2023_06_05_09_14_31_2021_04_27_22_50_52_THANG NAM RUC RO - WEB BANNER - V2.png"
+                    style="width:100%; height:30vmax;">
+                </div>
+        
+                <div class="mySlides fade">
+                  <img src="img/2023_11_12_17_38_56_B2011.png" style="width:100%; height:30vmax;">
+                </div>
+        
+        
+        
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(4)"></span>
+                  <span class="dot" onclick="currentSlide(5)"></span>
+                  <span class="dot" onclick="currentSlide(6)"></span>
+                </div>
+        
+              </div>
+        
+              <section>
+                <div class="section1">
+                  <iframe class="video1" name="page" id="myFrame" width="451" height="254"
+                    src="https://www.youtube.com/embed/MIlFCxqtgLs" title="[BẢN TIN 26/3] : THÁNG 3 KHÁT VỌNG VƯƠN XA"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                  <hr class="sec1_hr">
+        
+        
+                  <div class="box_card">
+                    <div class="card">
+                      <a class="card-title" href="#"
+                        onclick="changeVideo('https://www.youtube.com/embed/feayTJV-JTQ?si=axF3IaBt-Zy8GbHz&amp;controls=0')">
+                        <img src="img/snapedit_1706605562210.png " alt="" width="90%">
+                        <p class="small-desc">
+                          SÔI ĐỘNG LỄ KHAI MẠC GIẢI BÓNG ĐÁ TRUYỀN THỐNG HỌC SINH LẦN THỨ 25, NĂM HỌC 2023 - 2024
+                        </p>
+                      </a>
+                      <div class="go-corner"></div>
+                      <div class="go-arrow"></div>
+                    </div>
+        
+                    <div class="card">
+                      <a class="card-title" href="#2"
+                        onclick="changeVideo('https://www.youtube.com/embed/76SDaPe3RWQ?si=81Zo5kGcgLjMzMEo&amp;controls=0')">
+                        <img src="img/mybox.jpg" alt="" width="90%">
+                        <p class="small-desc">
+                          <span> THỜI HOA ĐỎ </span> <br>
+                          Bản tin số 12 phát sóng trong không khí của những ngày tháng Bảy, khi cái nắng vẫn còn đỏ lửa xen
+                          từng đợt mưa cuối hạ cũng là báo hiệu tiết thu đương chạm ngõ. Tháng Bảy cũng vương vấn cảm xúc lưu
+                          luyến
+                          bâng khuâng của các cô cậu học trò khi mùa thi vừa kết, khép lại một thời hoa đỏ rực rỡ thanh xuân đầy
+                          say mê dưới mái trường THPT chuyên Lê Hồng Phong, để tiếp tục chinh phục những chân trời mới…
+                        </p>
+                        </p>
+                      </a>
+                      <div class="go-corner"></div>
+                      <div class="go-arrow"></div>
+        
+                    </div>
+        
+        
+                    <div class="card">
+                      <a class="card-title" href="#3"
+                        onclick="changeVideo('https://www.youtube.com/embed/Dj2qGDCPraw?si=4F9Cba6Dkl8H3JAT&amp;controls=0')">
+                        <img src="img/videoframe_32350.png " alt="" width="90%">
+                        <p class="small-desc">
+                          [Phim ngắn] - Một thời để nhớ I Hội trường 95 năm I THPT chuyên Lê Hồng Phong Nam Định
+                        </p>
+                      </a>
+                      <div class="go-corner"></div>
+                      <div class="go-arrow"></div>
+                    </div>
+                  </div>
+        
+                </div>
+            </div>
+            </section>
+        
+        
+            <aside>
+              <div class="box_aside ">
+                <div class=" aside1">
+                  <p class="tintuc"> TIN MỚI NHẬN</p>
+                  <br>
+                  <marquee direction="up" behavior="scroll" scrollamount="3" onmouseover="this.stop()" onmouseout="this.start()"
+                    loop="-1">
+                    <div class="boxx">
+                      <a target="page" href="tt_boxx1.html ">
+                        <span style="display: flex;"><img src="img/tionmoinhanimg1.png"
+                            alt="Vinh danh những chiến binh xuất sắc nhất trong Kì thi HSGQG năm học 2023 - 2024">
+                          <p style="margin-left: 10px;">Vinh danh những chiến binh xuất sắc nhất trong Kì thi HSGQG năm học
+                            2023
+                            - 2024</p>
+                        </span>
+                      </a>
+                    </div>
+        
+                    <div class="boxx">
+                      <a href="tt_boxx2.html" target="page">
+                        <span style="display: flex;"><img src="img/tionmoinhanimg2.jpg"
+                            alt="Nỗ lực hành trình, vinh quang đích đến">
+                          <p style="margin-left: 10px;">Nỗ lực hành trình, vinh quang đích đến</p>
+                        </span>
+                      </a>
+                    </div>
+        
+                    <div class="boxx">
+                      <a href="tt_boxx3.html" target="page">
+                        <span style="display: flex;"><img src="img/tionmoinhanimg3.jpg"
+                            alt="Công bố đề minh họa cho cấu trúc định dạng đề thi tốt nghiệp THPT từ 2025">
+                          <p style="margin-left: 10px;">Công bố đề minh họa cho cấu trúc định dạng đề thi tốt nghi...</p>
+                        </span>
+                      </a>
+                    </div>
+        
+                    <div class=" boxx">
+                      <a href="tt_boxx4.html" target="page">
+                        <span style="display: flex;"><img src="img/tionmoinhanimg4.jpg"
+                            alt="Lễ Tuyên dương học sinh giỏi tham dự kỳ thi chọn học sinh giỏi quốc gia năm học 2023-2024">
+                          <p style="margin-left: 10px;">Lễ Tuyên dương học sinh giỏi tham dự kỳ thi chọn học sinh ...</p>
+                        </span>
+                      </a>
+                    </div>
+        
+                    <div class="boxx">
+                      <a href="tt_boxx5.html " target="page">
+                        <span style="display: flex;"><img src="img/tionmoinhanimg5.jpg"
+                            alt="Quyết định 105 bổ sung dự toán thu, chi ngân sách nhà nước năm 2023">
+                          <p style="margin-left: 10px;">Quyết định 105 bổ sung dự toán thu, chi ngân sách nhà nước năm 2023
+                          </p>
+                        </span>
+                      </a>
+                    </div>
+        
+                  </marquee>
+                </div>
+        
+                <div class=" aside2">
+                  <p class="aside2_text">THÔNG BÁO</p>
+                  <br>
+                  <div class="mar2">
+                    <div class="boxx1">
+                      <a target="page" href="tb_boxxx1.html" onclick="swapFrames(); return false;">
+                        <p class="text_page">Thông báo 173 - Công bố danh sách học sinh lớp 10 ở nội trú và ôn tập hè
+                          năm học 2023-2024</p>
+                      </a>
+                    </div>
+        
+                    <div class="boxx1">
+                      <a href=" tb_boxxx2.html" target="page">
+                        <p class="text_page">Các hoạt động hưởng ứng Ngày Sách và Văn hóa đọc Việt Nam và Ngày Sách thế
+                          giới năm 2023</p>
+                      </a>
+                    </div>
+        
+                    <div class="boxx1">
+                      <a href="tb_boxxx3.html" target="page">
+                        <p class="text_page">Kế hoạch tổ chức cuộc thi "Sáng tác câu đối và thiết kế lịch, phong bao lì
+                          xì chúc mừng năm mới"</p>
+        
+                    </div>
+        
+                    <div class="boxx1">
+                      <a href="tb_boxxx4.html " target="page">
+                        <p class="text_page">Chỉ đạo khẩn phòng, chống dịch bệnh Covid-19 của Bộ GDĐT </p>
+                      </a>
+                    </div>
+        
+                    <div class="boxx1">
+                      <a href=" tb_boxxx5.html " target="page">
+                        <p class="text_page">Kế hoạch tổ chức các hoạt động hưởng ứng ngày sách và văn hóa đọc Việt Nam
+                          và ngày sách thế giới </p> </span>
+                      </a>
+                    </div>
+        
+                    </marquee>
+                  </div>
+                </div>
+        
+                <!--     -------mobile--------- -->
+                <div class="box_asidemobile">
+                  <div>
+                    <a class="boxx" target="page" href="tt_boxx1.html " onclick="swapFrames(); return false;">
+                      <span class="boxx_span" style="display: flex;"><img src="img/tionmoinhanimg1.png"
+                          alt="Vinh danh những chiến binh xuất sắc nhất trong Kì thi HSGQG năm học 2023 - 2024">
+                        <p style="margin-left: 10px;">Vinh danh những chiến binh xuất sắc nhất trong Kì thi HSGQG năm học 2023
+                          - 2024</p>
+                      </span>
+                    </a>
+                  </div>
+        
+                  <div>
+                    <a class="boxx" href="tt_boxx2.html" target="page">
+                      <span class="boxx_span" style="display: flex;"><img src="img/tionmoinhanimg2.jpg"
+                          alt="Nỗ lực hành trình, vinh quang đích đến">
+                        <p style="margin-left: 10px;">Nỗ lực hành trình, vinh quang đích đến</p>
+                      </span>
+                    </a>
+                  </div>
+        
+                  <div>
+                    <a class="boxx" href="tt_boxx3.html" target="page">
+                      <span class="boxx_span" style="display: flex;"><img src="img/tionmoinhanimg3.jpg"
+                          alt="Công bố đề minh họa cho cấu trúc định dạng đề thi tốt nghiệp THPT từ 2025">
+                        <p style="margin-left: 10px;">Công bố đề minh họa cho cấu trúc định dạng đề thi tốt nghi...</p>
+                      </span>
+                    </a>
+                  </div>
+        
+                  <div>
+                    <a class=" boxx" href="tt_boxx4.html" target="page">
+                      <span class="boxx_span" style="display: flex;"><img src="img/tionmoinhanimg4.jpg"
+                          alt="Lễ Tuyên dương học sinh giỏi tham dự kỳ thi chọn học sinh giỏi quốc gia năm học 2023-2024">
+                        <p style="margin-left: 10px;">Lễ Tuyên dương học sinh giỏi tham dự kỳ thi chọn học sinh ...</p>
+                      </span>
+                    </a>
+                  </div>
+        
+                  <div>
+                    <a class="boxx" href="tt_boxx5.html " target="page">
+                      <span class="boxx_span" style="display: flex;"><img src="img/tionmoinhanimg5.jpg"
+                          alt="Quyết định 105 bổ sung dự toán thu, chi ngân sách nhà nước năm 2023">
+                        <p style="margin-left: 10px;">Quyết định 105 bổ sung dự toán thu, chi ngân sách nhà nước năm 2023</p>
+                      </span>
+                    </a>
+                  </div>
+        
+                </div>
+            </aside>
+            <article>
+              <div class="box_card_tablet">
+        
+                <div class="card">
+                  <a class="card-title" href="#2"
+                    onclick="changeVideo('https://www.youtube.com/embed/feayTJV-JTQ?si=axF3IaBt-Zy8GbHz&amp;controls=0')">
+                    <img src="img/snapedit_1706605562210.png " alt="" width="90%">
+                    <p class="small-desc">
+                      SÔI ĐỘNG LỄ KHAI MẠC GIẢI BÓNG ĐÁ TRUYỀN THỐNG HỌC SINH LẦN THỨ 25, NĂM HỌC 2023 - 2024
+                    </p>
+                    </p>
+                  </a>
+                  <div class="go-corner"></div>
+                  <div class="go-arrow"></div>
+                </div>
+        
+                <div class="card">
+                  <a class="card-title" href="#2"
+                    onclick="changeVideo('https://www.youtube.com/embed/76SDaPe3RWQ?si=81Zo5kGcgLjMzMEo&amp;controls=0')">
+                    <img src="img/mybox.jpg" alt="" width="90%">
+                    <p class="small-desc">
+                      <span> THỜI HOA ĐỎ </span> <br>
+                      Bản tin số 12 phát sóng trong không khí của những ngày tháng Bảy, khi cái nắng vẫn còn đỏ lửa xen
+                      từng đợt mưa cuối hạ cũng là báo hiệu tiết thu đương chạm ngõ. Tháng Bảy cũng vương vấn cảm xúc lưu
+                      luyến
+                      bâng khuâng của các cô cậu học trò khi mùa thi vừa kết, khép lại một thời hoa đỏ rực rỡ thanh xuân đầy
+                      say mê dưới mái trường THPT chuyên Lê Hồng Phong, để tiếp tục chinh phục những chân trời mới…
+                    </p>
+                    </p>
+                  </a>
+                  <div class="go-corner"></div>
+                  <div class="go-arrow"></div>
+                </div>
+        
+        
+                <div class="card">
+                  <a class="card-title" href="#3"
+                    onclick="changeVideo('https://www.youtube.com/embed/Dj2qGDCPraw?si=4F9Cba6Dkl8H3JAT&amp;controls=0')">
+                    <img src="img/videoframe_32350.png " alt="" width="90%">
+                    <p class="small-desc">
+                      [Phim ngắn] - Một thời để nhớ I Hội trường 95 năm I THPT chuyên Lê Hồng Phong Nam Định
+                    </p>
+                  </a>
+                  <div class="go-corner"> </div>
+                  <div class="go-arrow"></div>
+        
+                </div>
+        
+              </div>
+            </article>
+            <section>
+              <div class="nav1">
+                <a class="nav1_link" href="">
+                  <h2>
+                    <i style="color: rgb(170, 201, 228); margin-right: 3vmax;" class="fa fa-calendar-week"></i>
+                    HOẠT ĐỘNG
+                  </h2>
+                </a>
+        
+                <div class="nbody">
+                  <table border="0">
+                    <tr>
+                      <td colspan="3" class="table_slide">
+                        <div class="niframe" src="" frameborder="0">
+                          <div class="mySlideshowContainer">
+                            <div class="myImageSlides fadeEffect">
+                              <img src="img/417400145_688763956786538_5043923854906543829_n.jpg" style="width:100%">
+                            </div>
+        
+                            <div class="myImageSlides fadeEffect">
+                              <img src="img/417418923_688762223453378_3994952848635265226_n.jpg" style="width:100%">
+                            </div>
+        
+                            <div class="myImageSlides fadeEffect">
+                              <img src="img/anh1.jpg" style="width:100%">
+                            </div>
+        
+                            <div class="myImageSlides fadeEffect">
+                              <img src="img/anh2.jpg" style="width:100%">
+                            </div>
+        
+                            <div class="myImageSlides fadeEffect">
+                              <img src="img/anh3.jpg" style="width:100%">
+                            </div>
+        
+                            <div class="myImageSlides fadeEffect">
+                              <img src="img/anh4.jpg" style="width:100%">
+                            </div>
+        
+                            <div class="myImageSlides fadeEffect">
+                              <img src="img/anh5.jpg" style="width:100%">
+                            </div>
+        
+                            <div class="myImageSlides fadeEffect">
+                              <img src="img/anh6.jpg" style="width:100%">
+                            </div>
+        
+                            <div class="myImageSlides fadeEffect">
+                              <img src="img/anh7.jpg" style="width:100%">
+                            </div>
+        
+                            <div class="myImageSlides fadeEffect">
+                              <img src="img/417442771_688764070119860_199749258825897826_n.jpg" style="width:100%">
+                            </div>
+        
+                            <div class="myImageSlides fadeEffect">
+                              <img src="img/417442771_688764070119860_199749258825897826_n.jpg" style="width:100%">
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td rowspan="3" style="width: 40%; height: 100%;" class="table_iframe">
+                        <iframe name="page2" class="niframe2" src="" frameborder="0" style="display: none; ">
+                        </iframe>
+                        <div class="myDiv">
+                          <img style="width: 30%;" src=" img/logo.jpg" alt="">
+                          <table class="nmyDiv" border="0">
+                            <tr>
+                              <td colspan="5" class="td_iframe">
+                                <p>
+                                <div style=" font-size:smaller;">
+                                  <strong> [CHUYÊN MỤC KHỐI SỬ “SẮC XUÂN ĐỘC LẬP”, CHÀO MỪNG 94 NĂM NGÀY THÀNH LẬP ĐẢNG CỘNG
+                                    SẢN
+                                    VIỆT NAM]</strong>
+                                  🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
+                                  Một mùa xuân mới lại đang về. Mùa xuân, mùa của trăm hoa đua nở, mùa của lộc biếc trời xanh…
+                                  Trong vòng luân chuyển của vũ trụ, không có sự hiện diện nào làm lòng người rạo rực hơn sự
+                                  hiện diện của mùa xuân. Và với người Việt ta, trong gần một thế kỉ qua, mùa Xuân bao giờ
+                                  cũng
+                                  gắn liền với Đảng. Cứ mỗi độ Tết đến, Xuân về là cả dân tộc lại nô nức mừng Đảng, mừng Xuân.
+                                  Bởi lẽ, từ khi có Đảng, có Bác, dân tộc ta mới được làm chủ vận mệnh đất nước, mới thực sự
+                                  được tự do, cơm no, áo ấm, hạnh phúc đủ đầy.
+                                  🌸 Hoà trong không khí hân hoan của đất trời, của vạn vật và lòng người đắm say với mùa
+                                  xuân,
+                                  tập thể khối chuyên sử đã biểu diễn một chương trình chuyên mục đặc sắc với chủ đề: “SẮC
+                                  XUÂN
+                                  ĐỘC LẬP”, đây cũng là một hoạt động ý nghĩa chào mừng 94 năm ngày thành lập Đảng cộng sản
+                                  Việt
+                                  Nam (03/02/1930 - 03/02/2024). Chương trình bao gồm các tiết mục:
+                                  <br>📍 Bài hát: “Tuổi xuân dâng Đảng”;
+                                  <br>📍 Bài hát "Vươn cao Việt Nam";
+                                  <br>📍Nhảy mashup: “Hoa cỏ mùa xuân - Nàng xuân - Một năm mới bình an”
+                                  <br> 🌸 Như vậy, Mùa xuân không chỉ là mùa của cái đẹp, mùa của sự đoàn viên mà đối với dân
+                                  tộc Việt Nam, đó còn là mùa để chúng ta tưởng nhớ về những công lao, chiến tích của cha ông
+                                  ta
+                                  trong suốt chiều dài dựng nước và giữ nước gian khổ. Đảng Cộng Sản ra đời chính là bước
+                                  ngoặt
+                                  vĩ đại của lịch sử dân tộc, chính là “mùa xuân” của độc lập, tự do, no ấm và hạnh phúc cho
+                                  mỗi
+                                  người dân Việt Nam…</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td colspan="2"> <img src="img/417553952_688762180120049_9146603882880941775_n.jpg " alt="">
+                              </td>
+                              <td> <img src=" img/417426584_688763996786534_1867581492203280241_n.jpg" alt=""> </td>
+        
+                            </tr>
+                            <tr>
+                              <td> <img src=" img/417426584_688763996786534_1867581492203280241_n.jpg" alt=""> </td>
+                              <td colspan="2"> <img src="img/417400145_688763956786538_5043923854906543829_n.jpg " alt="">
+                              </td>
+        
+                            </tr>
+                            <tr>
+                              <td colspan="2"> <img src="img/417442771_688764070119860_199749258825897826_n.jpg" alt=""> </td>
+                              <td> <img src="img/419039139_688763440119923_6255715312967462285_n.jpg " alt=""> </td>
+                            </tr>
+                          </table>
+        
+                        </div>
+        
+                      </td>
+                    </tr>
+        
+                    <tr>
+                      <td class="ntd">
+                        <div class="ntd2">
+                          <a target="page2" class="myLink" href=" hd_box1.html" onmouseover="showIframe()">[Chuyên mục khối
+                            Sử] -
+                            Sắc xuân độc lập chào mừng 94 năm ngày thành lập Đảng cộng sản Việt Nam (03/02/1930 -
+                            03/02/2024)</a>
+        
+                        </div>
+                      </td>
+        
+                      <td class="ntd">
+                        <div class="ntd2">
+                          <a target="page2" class="myLink" href=" hd_box2.html">Dạ hội khối chuyên Anh 2024 - Symphony of
+                            youth </a>
+                        </div>
+                      </td>
+                      <td class="ntd">
+                        <div class="ntd2">
+                          <a target="page2" class="myLink" href="hd_box3.html ">[Chuyên mục khối Toán] - Mùa nắng hạ</a>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+        
+                      <td class="ntd">
+                        <div class="ntd2">
+                          <a target="page2" class="myLink" href="hd_box4.html "> Tự hào thành tích Học sinh giỏi Quốc gia năm
+                            học
+                            2023 - 2024</a>
+                        </div>
+                      </td>
+        
+                      <td class="ntd">
+                        <div class="ntd2">
+                          <a target="page2" class="myLink" href="hd_box5.html ">Học sinh trường THPT chuyên Lê Hồng Phong đoạt
+                            giải
+                            Nhất cuộc thi KHKT cấp tỉnh năm học 2023 - 2024 </a>
+                        </div>
+                      </td>
+        
+                      <td class="ntd">
+                        <div class="ntd2">
+                          <a target="page2" class="myLink" href="tt_boxx1.html ">Vinh danh những chiến binh xuất sắc nhất
+                            trong Kì
+                            thi HSGQG năm học 2023 - 2024</a>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="hoatdong_moble">
+                  <iframe name="page3" class="niframe2_mobile" src="" frameborder="0">
+                  </iframe>
+                  <div class="box_mobile">
+                    <a target="page3" class="myLink" href=" hd_box1.html" onmouseover="showIframe()">
+                      <img src="img/videoframe_32350.png" alt=""><span>
+                        [Chuyên mục khối Sử] -
+                        Sắc xuân độc lập chào mừng 94 năm ngày thành lập Đảng cộng sản Việt Nam (03/02/1930 -
+                        03/02/2024)</span></a> <br>
+                    <a target="page3" class="myLink" href=" hd_box2.html">
+                      <img src="img/hd_box6.jpg" alt=""><span> Dạ hội khối chuyên Anh 2024 - Symphony of youth</span>
+                    </a> <br>
+        
+                    <a target="page3" class="myLink" href="hd_box4.html">
+                      <img src="img/td2.png" alt=""> <span> Tự hào thành tích Học sinh giỏi Quốc gia năm học
+                        2023 - 2024</span>
+                    </a> <br>
+        
+                    <a target="page3" class="myLink" href="hd_box5.html ">
+                      <img src="img/td2.jpg" alt=""> <span> Học sinh trường THPT chuyên Lê Hồng Phong đoạt giải
+                        Nhất cuộc thi KHKT cấp tỉnh năm học 2023 - 2024 </span>
+                    </a> <br>
+                    <a target="page3" class="myLink" href="tt_boxx1.html ">
+                      <img src="img/div3.jpg" alt="">
+                      <span> Vinh danh những chiến binh xuất sắc nhất trong Kì
+                        thi HSGQG năm học 2023 - 2024</span>
+                    </a> <br>
+                  </div>
+                </div>
+        
+        
+              </div>
+            </section>
+        
+            <article>
+              <div class=" container_article3">
+                <div class="myaside3">
+                  <table border="0" style="width: 100%;">
+                    <tr>
+                      <td class=" image1" rowspan="2">
+                        <p class="text_image" style="margin-top: 30%;">
+                          Trường THPT chuyên <br> Lê Hồng Phong - Tỉnh Nam Định
+                          <button> <a href=" gioithieu.html">Giới Thiệu </a> </button>
+                        </p>
+        
+                      </td>
+                      <td class=" image2" colspan="2">
+                        <p class="text_image"> Hành trình khơi nguồn sáng <br> của học sinh
+                          trường THPT Lê Hồng Phong
+                          <br>
+                          <button> <a href="khoinguon.html "> Khơi Nguồn</a> </button>
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class=" image3">
+                        <p class="text_image">
+                          <button> <a href="bangtinso9.html "> Hoạt Động</a> </button> <br>
+                          Hoạt động của <br> trường THPT Lê Hồng Phong
+                        </p>
+                      </td>
+        
+                      <td class=" image4">
+                        <p class="text_image">
+                          Hành trình đến khát vọng dẫn đến tương lai <br>
+                          <button> <a href="hanhtrinh.html"> Hành trình </a> </button>
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </article>
+            <section>
+              <div class="section3">
+                <div class="container_sec3">
+                  <div class="box_button">
+                    <button id="btn-tainguyen"><img src="img/book-alt.png" alt>TÀI
+                      NGUYÊN</button>
+                    <button id="btn-tt-kh"> <img src="img/browser.png" alt>TIN TỨC - KHOA
+                      HỌC </button>
+                    <button id="btn-tienich">ABLUM</button>
+                  </div>
+                  <div id="tainguyen-content" class="content">
+                    <div class="boxmyDiv3">
+                      <div class="tab1">
+                        <a href="tt_boxx1.html " target="myboxiframe"
+                          onclick="changeSrc('http://thpt-lehongphong-nd.edu.vn/tu-lieu-day-va-hoc-485/cong-bo-de-minh-hoa-cho-cau-truc-dinh-dang-de-thi-tot-nghiep-thpt-tu-2025-3717.html ')"
+                          class="mya">
+                          <img src="img/De-Minh-Hoa.jpg " alt>
+                          <p> <b>Công bố đề minh
+                              họa cho cấu trúc định dạng đề thi tốt nghiệp THPT từ
+                              2025</b> <br>
+                            29/01/2024 <br> Cùng với thông tin về định dạng đề thi,
+                            Bộ GD&ĐT công bố đề minh họa cho cấu trúc định dạng đề
+                            thi tốt nghiệp THPT từ 2025. </p>
+                        </a>
+        
+                        <a href=" tn_link2.html" target="myboxiframe"
+                          onclick="changeSrc('http://thpt-lehongphong-nd.edu.vn/tu-lieu-day-va-hoc-485/mot-so-giai-phap-trong-cong-tac-phat-hien-tuyen-chon-va-boi-duong-hoc-sinh-gioi-3420.html')"
+                          class="mya">
+                          <img src="img/2022_10_09_08_28_46_Dương_Tham luận chuyên môn.png" alt>
+                          <p> <strong>Một số giải
+                              pháp trong công tác phát hiện, tuyển chọn và bồi dưỡng
+                              học sinh giỏi</strong><br>
+                            04/08/202 <br>1Trong thời đại bùng nổ thông tin hiện
+                            nay, nhiều bạn trẻ đang chọn sketchnote như một cách
+                            thức ghi chép dễ nhớ, dễ nhìn, thỏa sức sáng tạo, rèn
+                            luyện trí thông minh. Đặc biệt, phương pháp này đã và
+                            đang được các bạn Fschoolers yêu thích áp dụng trong quá
+                            trình học tập, làm dự án. Vậy sketchnote là ...</p>
+                        </a>
+        
+                        <a href="tn_link3.html " target="myboxiframe"
+                          onclick="changeSrc('http://thpt-lehongphong-nd.edu.vn/hoat-dong-hoc-sinh-324/nhe-nhang-sau-lang-cung-chuyen-muc-khoi-sinh-voi-chu-de-%E2%80%9Cdong-ki-uc%E2%80%9D-3455.html')"
+                          class="mya">
+                          <img src="img/2020_09_12_YTST_NgayHoiVanHoaDanGian_Cover.jpg " alt>
+                          <p> <strong>Nhẹ nhàng,
+                              sâu lắng cùng chuyên mục khối Sinh với chủ đề “Dòng kí
+                              ức”</strong> <br>
+                            14/09/2020 <br> Văn hoá dân gian là di sản quý báu mà
+                            muôn đời cần gìn giữ. Hướng về văn hoá dân gian là hướng
+                            về cội nguồn dân tộc. Nơi đó ta thấy được đời sống lao
+                            động sinh hoạt cũng như tâm hồn của cha ông ngày xưa và
+                            cả ngày nay. Dù trong thời đại mới, bạn có là một công
+                            dân toàn cầu, dù có tiếp cận với muôn v... </p>
+                        </a>
+        
+                        <a href=" th_link4.html " target="myboxiframe"
+                          onclick="changeSrc('http://thpt-lehongphong-nd.edu.vn/van-hoa-doc-553/gioi-thieu-cuon-tieu-thuyet-cua-ho-anh-thai-3269.html ')"
+                          class="mya">
+                          <img src="img/2020_09_12_YTST_DayHocTraiNghiem_A9.jpg " alt>
+                          <p> <strong>Dự án dạy
+                              học trải nghiệm của các thầy cô giáo tổ Xã hội trường
+                              THPT Ban Mai, Hà Đông, Hà Nội</strong> <br>
+                            13/09/2020 <br> Dạy học trải nghiệm là một hướng đi mới
+                            và hứa hẹn những giá trị đặc biệt mà phương pháp dạy học
+                            truyền thống chưa chạm đến.</p>
+                        </a>
+        
+                        <a href="tt_boxx1.html " target="myboxiframe"
+                          onclick="changeSrc('http://thpt-lehongphong-nd.edu.vn/tu-lieu-day-va-hoc-485/cong-bo-de-minh-hoa-cho-cau-truc-dinh-dang-de-thi-tot-nghiep-thpt-tu-2025-3717.html ')"
+                          class="mya">
+                          <img src="img/De-Minh-Hoa.jpg " alt>
+                          <p> <b>Công bố đề minh
+                              họa cho cấu trúc định dạng đề thi tốt nghiệp THPT từ
+                              2025</b> <br>
+                            29/01/2024 <br> Cùng với thông tin về định dạng đề thi,
+                            Bộ GD&ĐT công bố đề minh họa cho cấu trúc định dạng đề
+                            thi tốt nghiệp THPT từ 2025. </p>
+                        </a>
+        
+                        <a href=" tn_link2.html" target="myboxiframe"
+                          onclick="changeSrc('http://thpt-lehongphong-nd.edu.vn/tu-lieu-day-va-hoc-485/mot-so-giai-phap-trong-cong-tac-phat-hien-tuyen-chon-va-boi-duong-hoc-sinh-gioi-3420.html')"
+                          class="mya">
+                          <img src="img/2022_10_09_08_28_46_Dương_Tham luận chuyên môn.png" alt>
+                          <p> <strong>Một số giải
+                              pháp trong công tác phát hiện, tuyển chọn và bồi dưỡng
+                              học sinh giỏi</strong><br>
+                            04/08/202 <br>1Trong thời đại bùng nổ thông tin hiện
+                            nay, nhiều bạn trẻ đang chọn sketchnote như một cách
+                            thức ghi chép dễ nhớ, dễ nhìn, thỏa sức sáng tạo, rèn
+                            luyện trí thông minh. Đặc biệt, phương pháp này đã và
+                            đang được các bạn Fschoolers yêu thích áp dụng trong quá
+                            trình học tập, làm dự án. Vậy sketchnote là ...</p>
+                        </a>
+        
+                        <a href="tn_link3.html " target="myboxiframe"
+                          onclick="changeSrc('http://thpt-lehongphong-nd.edu.vn/hoat-dong-hoc-sinh-324/nhe-nhang-sau-lang-cung-chuyen-muc-khoi-sinh-voi-chu-de-%E2%80%9Cdong-ki-uc%E2%80%9D-3455.html')"
+                          class="mya">
+                          <img src="img/2020_09_12_YTST_NgayHoiVanHoaDanGian_Cover.jpg " alt>
+                          <p> <strong>Nhẹ nhàng,
+                              sâu lắng cùng chuyên mục khối Sinh với chủ đề “Dòng kí
+                              ức”</strong> <br>
+                            14/09/2020 <br> Văn hoá dân gian là di sản quý báu mà
+                            muôn đời cần gìn giữ. Hướng về văn hoá dân gian là hướng
+                            về cội nguồn dân tộc. Nơi đó ta thấy được đời sống lao
+                            động sinh hoạt cũng như tâm hồn của cha ông ngày xưa và
+                            cả ngày nay. Dù trong thời đại mới, bạn có là một công
+                            dân toàn cầu, dù có tiếp cận với muôn v... </p>
+                        </a>
+        
+                        <a href=" th_link4.html " target="myboxiframe"
+                          onclick="changeSrc('http://thpt-lehongphong-nd.edu.vn/van-hoa-doc-553/gioi-thieu-cuon-tieu-thuyet-cua-ho-anh-thai-3269.html ')"
+                          class="mya">
+                          <img src="img/2020_09_12_YTST_DayHocTraiNghiem_A9.jpg " alt>
+                          <p> <strong>Dự án dạy
+                              học trải nghiệm của các thầy cô giáo tổ Xã hội trường
+                              THPT Ban Mai, Hà Đông, Hà Nội</strong> <br>
+                            13/09/2020 <br> Dạy học trải nghiệm là một hướng đi mới
+                            và hứa hẹn những giá trị đặc biệt mà phương pháp dạy học
+                            truyền thống chưa chạm đến.</p>
+                        </a>
+                      </div>
+                      <div class="mydivboxright">
+                        <iframe name="myboxiframe" id="myboxframe"
+                          src="https://www.youtube.com/embed/Jiklo-0tXWw?si=srNwIlLPQH0bphcK" title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="tt-kh-content" class="content" style="display: none;">
+                    <div class="boxmyDiv4">
+                      <div class="mydivboxleft">
+        
+                        <iframe name="myboxframe1" id="myboxframe"
+                          src="https://www.youtube.com/embed/aOqTqbLbTKQ?si=vW4oVf7dPSkN7BVj" title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          allowfullscreen> </iframe>
+                      </div>
+                      <div class="tab2">
+                        <a target="myboxframe1" href="ttkh_link1.html" class="mya"><img src="img/tintucgiaoduc2.jpg " alt>
+                          <p> Ứng dụng khoa học và công nghệ nâng cao giá trị nông sản
+        
+                          </p>
+                        </a>
+        
+                        <a target="myboxframe1" href="ttkh_link2.html" class="mya"> <img src="img/ttkh3.jpg" alt>
+                          <p> Áp dụng mô hình chăn nuôi gà đẻ trứng
+                          </p>
+        
+                        </a>
+        
+                        <a target="myboxframe1" href="ttkh_link3.html" class="mya"> <img src="img/ttkh4.jpg" alt>
+                          <p>Chuỗi liên kết trong chăn nuôi </p>
+        
+                        </a>
+        
+                        <a target="myboxframe1" href="ttkh_link4.html" class="mya" target="myboxframe1"><img
+                            src="img/ttkh5.jpg " alt>
+                          <p> Cái nôi của Chầu văn</p>
+                          <a target="myboxframe1" href="ttkh_link1.html" class="mya"><img src="img/tintucgiaoduc2.jpg " alt>
+                            <p> Ứng dụng khoa học và công nghệ nâng cao giá trị nông sản
+                            </p>
+                          </a>
+        
+                          <a target="myboxframe1" href="ttkh_link2.html" class="mya"> <img src="img/ttkh3.jpg" alt>
+                            <p> Áp dụng mô hình chăn nuôi gà đẻ trứng
+                            </p>
+        
+                          </a>
+        
+                          <a target="myboxframe1" href="ttkh_link3.html" class="mya"> <img src="img/ttkh4.jpg" alt>
+                            <p> Chuỗi liên kết trong chăn nuôi </p>
+        
+                          </a>
+        
+                          <a target="myboxframe1" href="ttkh_link4.html" class="mya" target="myboxframe1"><img
+                              src="img/ttkh5.jpg " alt>
+                            <p> Cái nôi của Chầu văn</p>
+        
+                          </a>
+                      </div>
+        
+                    </div>
+                  </div>
+        
+                  <div id="tienich-content" style="display:none;">
+                    <iframe src="https://albumizr.com/a/LNOl" scrolling="no" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="map">
+                  <div class="text_map"> <img src="img/map.png " alt>Google Map
+                  </div>
+                  <iframe class="iframe_map"
+                    src="https://www.google.com/maps/d/u/0/embed?mid=1hue06fExSm_6MF2JpF456k0HAEBcuBw&ehbc=2E312F" width="640"
+                    height="680"></iframe>
+                </div>
+        
+                <div class="app_section3">
+                  <div class="tienich">
+                    <img style="width: 10%; height: 10% ;  margin-right: 1vmax;" src="img/tienich1.png" alt>
+                    Liên kết hữu ích
+                  </div>
+        
+                  <div>
+                    <div class="linkapp">
+                      <div class="facebook">
+                        <a class="myface" href="https://www.facebook.com/chuyenlhpnd">
+                          <img src="img/facebook.png" alt>
+                          <p> Facebook</p>
+                        </a>
+                      </div>
+        
+                      <div class="youtube">
+                        <a class=" myyoutube" href="https://www.youtube.com/chuyenlhpnd">
+                          <img src="img/youtube.png" alt>
+                          <p> YouTube</p>
+                        </a>
+                      </div>
+        
+                      <div class="web">
+                        <a class="myweb" href="http://thpt-lehongphong-nd.edu.vn/     ">
+                          <img src="img/site-alt.png" alt>
+                          <p>Websitee</p>
+                        </a>
+                      </div>
+                    </div>
+                    <hr>
+                    <div style="width: 100%;"> <img style="margin-top: 1vmax;" width="100%" height="100%" src="img/div3.jpg"
+                        alt></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+        
+        
+            <!--  ------------- nut day trang len dau---------- -->
+            <button id="myBtn" title="Lên đầu trang"> <img src="img/paper.png" alt="" width="30px"></button>
+    
+ 
+<!--  ------------- nut day trang len dau---------- -->
+ <!-- <button id="myBtn" title="Lên đầu trang"> <img src="img/paper.png" alt="" width="30px"></button> -->
+
+    <footer>
+            <div class="lienhe">
+                <div>
+                <h3>Trường THPT chuyên Lê Hồng Phong</h3>               
+                </div >
+                <div class="icons">
+                <i class="fa-solid fa-map-location-dot" style="color: #FFD43B;"></i>
+                Địa chỉ: 76 Vị Xuyên, phường Vị Xuyên, thành phố Nam Định, tỉnh Nam Định
+                </div>
+                <div class="icons">
+                <i class="fa-solid fa-phone-volume" style="color: #FFD43B;"></i>
+                Điện thoại: 0228 3640 297
+                </div>
+                <div class="icons">
+                <i class="fa-solid fa-envelope" style="color: #FFD43B;"></i>
+                Email: lehongphong@gmail.edu.vn
+                </div>
+                <div class="social-media">
+                  <a href="https://www.facebook.com/profile.php?id=100076077228658&__tn__=%3C">
+                      <i class="fa-brands fa-square-facebook fa-2x" style="color: #3692d9;"></i>
+                  </a>
+                  <a href="https://youtube.com/@chuyenlhpnd?si=bE_CatIp34FGq6h2">
+                      <i class="fa-brands fa-youtube fa-2x" style="color: #e1475e;"></i>
+                  </a>
+              </div>
+            </div>
+            <div class="user">
+              <div class="user-1">
+                  <i class="fa-solid fa-user" style="color: #FFD43B;"></i>
+                  <p>Số người Online:</p>
+                  <a href="">152</a> 
+              </div>
+              <div class="user-1">
+                  <i class="fa-solid fa-users" style="color: #FFD43B;"></i>
+                  <p>Tổng số:</p>
+                  <a href="">1097488</a>
+              </div>
+              <div class="user-1">
+                  <p>Copyright 2023 Le Hong Phong High School</p>
+              </div>
+              <div class="user-1">
+                  <p>Thiết kế bởi:</p>
+                  <a href=""> Nhóm WD1013</a>
+              </div>
+          </div>
+        </footer> 
+    </div>
+
+
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script>
+      const nav = document.querySelector('nav');
+      const toggle_menu = document.querySelector('.toggle_menu');
+      toggle_menu.onclick = function() {
+          nav.classList.toggle('hide');
+          
+      }
+  </script>
+  <script src="trangchu.js"></script>
+</body>
+</html>

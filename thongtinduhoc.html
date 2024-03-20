@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thongtinduhoc</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v19.0" nonce="XNHVRnJM"></script>
+    <div class="container">
+        <header>
+            <img class="logo" src="img/logo.jpg" alt="">
+            <div class="huychuong">
+                <img src="img/huychuong1.png" alt="">
+            </div>
+            <div class="header-ip">
+                <div class="phude">
+                    <a href="lienhe.html">
+                        <i class="fa-regular fa-envelope"></i>
+                        Liên Hệ
+                    </a>
+                    <a href="login.html">
+                        <i class="fa-solid fa-user"></i>
+                        Đăng Nhập
+                    </a>
+                </div>
+                <div class="input">
+                    <input placeholder="Tìm kiếm...." width="100px" height="50px" type="search">
+                    <div class="iconsearch">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="main-login">
+                <label for="toggle-sidebar"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" id="toggle-sidebar">
+                <div class="sidebar">
+                    <ul class="menu-list">
+                        <li>
+                            <a href="gioithieu.html">GIỚI THIỆU</a>
+                            <i class="fa-solid fa-plus"></i>
+                            <ul class="submenu-list">
+                                <li><a href="lichsutruong.html">Lịch sử trường</a></li>
+                                <li><a href="truyenthong.html">Truyền thống trường</a></li>
+                                <li><a href="phanthuong.html">Phần thưởng-Danh hiệu</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="tochuc.html">TỔ CHỨC</a>
+                            <i class="fa-solid fa-plus"></i>
+                            <ul class="submenu-list">
+                                <li><a href="#">Đảng Bộ</a></li>
+                                <li><a href="#">Ban Giám Hiệu</a></li>
+                                <li><a href="#">BCH Công Đoàn</a></li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="">THÔNG BÁO-TIN TỨC</a>
+                            <i class="fa-solid fa-plus"></i>
+                            <ul class="submenu-list">
+                                <li><a href="#">Thông Tin Điều Hành</a></li>
+                                <li><a href="#">Tin Tức Nhà Trường</a></li>
+                                <li><a href="#">Hoạt Động HS</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="trangchinh.html">HƯỚNG NGHIỆP&TUYỂN SINH</a>
+                            <i class="fa-solid fa-plus"></i>
+                            <ul class="submenu-list">
+                                <li><a href="#">Hoạt Động Tuyển Sinh</a></li>
+                                <li><a href="#">Hoạt Động Hướng Nghiệp</a></li>
+                                <li><a href="#">Thông Tin Du Học</a></li>
+                                <li><a href="#">Tuyển Sinh Vào Lớp 10</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="banQLNT.html">KHU NỘI TRÚ</a>
+                            <i class="fa-solid fa-plus"></i>
+                            <ul class="submenu-list">
+                                <li><a href="#">Ban Quản Lí</a></li>
+                                <li><a href="#">Nội Quy Khu Nội Trú</a></li>
+                                <li><a href="#">Hoạt Động Nội Trú</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">TÀI NGUYÊN</a>
+                            <i class="fa-solid fa-plus"></i>
+                        </li>
+                        <li><a href="gopy.html">GÓP Ý</a>
+                            <i class="fa-solid fa-plus"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <nav style="width: 100%;">
+
+            <ul class="menu">
+                <li style="padding-left: 40px;"><a href="index.html"><i class="fa-solid fa-house"
+                            style="color: #fff; padding-right: 15px;"></i>TRANG CHỦ</a></li>
+                <li>
+                    <a href="gioithieu.html">GIỚI THIỆU
+                        <i class="fa-solid fa-angle-down" style="color: #fafafa;"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li><a href="lichsutruong.html">Lịch sử trường</a></li>
+                        <li><a href="truyenthong.html">Truyền thống trường</a></li>
+                        <li><a href="phanthuong.html">Phần thưởng-Danh hiệu</a></li>
+                    </ul>
+                </li>
+                <li><a href="tochuc.html">TỔ CHỨC
+                        <i class="fa-solid fa-angle-down" style="color: #fafafa;"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li><a href="#">Đảng Bộ</a></li>
+                        <li><a href="#">Ban Giám Hiệu</a></li>
+                        <li><a href="#">BCH Công Đoàn</a></li>
+                    </ul>
+                </li>
+                <li class="">
+                    <a href="">THÔNG BÁO-TIN TỨC
+                        <i class="fa-solid fa-angle-down" style="color: #fafafa;"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li><a href="#">Thông Tin Điều Hành</a></li>
+                        <li><a href="#">Tin Tức Nhà Trường</a></li>
+                        <li><a href="#">Hoạt Động HS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="trangchinh.html">HƯỚNG NGHIỆP&TUYỂN SINH</a>
+                    <ul class="submenu">
+                        <li><a href="#">Hoạt Động Tuyển Sinh</a></li>
+                        <li><a href="#">Hoạt Động Hướng Nghiệp</a></li>
+                        <li><a href="#">Thông Tin Du Học</a></li>
+                        <li><a href="#">Tuyển Sinh Vào Lớp 10</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="banQLNT.html">KHU NỘI TRÚ</a>
+                    <ul class="submenu">
+                        <li><a href="#">Ban Quản Lí</a></li>
+                        <li><a href="#">Nội Quy Khu Nội Trú</a></li>
+                        <li><a href="#">Hoạt Động Nội Trú</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">HỎI ĐÁP</a>
+                </li>
+                <li><a href="gopy.html">GÓP Ý</a>
+                </li>
+            </ul>
+            <div class="led">
+                <marquee behavior="
+            " direction=""><i class="fa-solid fa-star" style="color: #FFD43B;"></i>SỨ MỆNH: PHÁT HIỆN, BỒI DƯỠNG HỌC
+                    SINH GIỎI GÓP PHẦN ĐÀO TẠO HIỀN TÀI <i class="fa-solid fa-star" style="color: #FFD43B;"></i> GIÁ TRỊ
+                    CỐT LÕI: TRÍ TUỆ, NHÂN CÁCH, TRÁCH NHIỆM, TỰ TÔN, SÁNG TẠO <i class="fa-solid fa-star"
+                        style="color: #FFD43B;"></i> TẦM NHÌN XÂY DỰNG TRƯỜNG CHUYÊN CHẤT LƯỢNG CAO, ĐẠT CHUẨN, VƯƠN TẦM
+                    KHU VỰC</marquee>
+            </div>
+
+        </nav>     
+        <div class="HDTSall">
+            <div class="hdtsanh">
+                <div class="hdtsanhchu">
+                <i class="fa-regular fa-calendar-minus" style="color: gray;"></i> Thông Tin Du Học
+                </div>
+            </div>
+            <div class="hdts-nd">
+            <article>    
+                <div class="hdts-article">
+                    <div class="hdts-nd1">    
+                    <div class="hdts-img"><a href="http://thpt-lehongphong-nd.edu.vn/du-hoc-hop-tac-quoc-te-488/dai-hoc-quoc-te-tokyo-tiu-ngoi-truong-tu-thuc-hang-dau-tai-saitama-3474.html"><img width="250px" src="img/THDH1.jpg" alt="logo"></a></div>
+                    <div class="hdts-tieude"><a href="http://thpt-lehongphong-nd.edu.vn/du-hoc-hop-tac-quoc-te-488/dai-hoc-quoc-te-tokyo-tiu-ngoi-truong-tu-thuc-hang-dau-tai-saitama-3474.html">Đại học Quốc tế Tokyo (TIU) ngôi trường tư thục hàng đầu tại Saitama</a><br><br>
+                    13/12/2022<br>
+                    Đại học Quốc tế Tokyo Nhật Bản là một trong những ngôi trường tư thục hàng đầu tại Saitama dành cho sinh viên du học Nhật Bản. Với chương trình học thú vị, đạt chuẩn quốc tế cùng cơ sở vật chất hiện đại, Tokyo International University hứa hẹn sẽ là môi trường học tập lý tưởng tại xứ Phù Tang.
+                    </div>
+                    </div>
+                </div>
+                <br><hr><br>
+                <div class="hdts-article">
+                    <div class="hdts-nd1">    
+                    <div class="hdts-img"><a href="http://thpt-lehongphong-nd.edu.vn/du-hoc-hop-tac-quoc-te-488/dai-hoc-tokyo-ngoi-truong-danh-gia-bac-nhat-nhat-ban-3473.html"><img width="250px" src="img/TTDH2.jpg" alt="logo"></a></div>
+                    <div class="hdts-tieude"><a href="http://thpt-lehongphong-nd.edu.vn/du-hoc-hop-tac-quoc-te-488/dai-hoc-tokyo-ngoi-truong-danh-gia-bac-nhat-nhat-ban-3473.html">Đại Học Tokyo: Ngôi trường danh giá bậc nhất Nhật Bản</a><br><br>
+                    13/12/2022<br>
+                    Đại học Tokyo là trường đại học quốc gia đầu tiên tại Nhật và là một trong những trường đại học được xếp hạng cao nhất trong bảng xếp hạng của châu Á. Trường là sự hội tụ của nền giáo dục chất lượng và hiện đại nhất kết hợp với sự hoàn thiện về mặt thẩm mỹ không gian học tập và kiến trúc độc đáo mà ...
+                    </div>
+                    </div>
+                </div>
+                <br><hr><br>
+                <div class="hdts-article">
+                    <div class="hdts-nd1">    
+                    <div class="hdts-img"><a href="http://thpt-lehongphong-nd.edu.vn/du-hoc-hop-tac-quoc-te-488/cac-truong-dai-hoc-nga-ve-tham-va-lam-viec-voi-thay-tro-truong-thpt-chuyen-le-hong-phong-nam-dinh-3470.html"><img width="250px" src="img/TTDH3.jpg" alt="logo"></a></div>
+                    <div class="hdts-tieude"><a href="http://thpt-lehongphong-nd.edu.vn/du-hoc-hop-tac-quoc-te-488/cac-truong-dai-hoc-nga-ve-tham-va-lam-viec-voi-thay-tro-truong-thpt-chuyen-le-hong-phong-nam-dinh-3470.html">Các trường đại học Nga về thăm và làm việc với thầy trò trường THPT chuyên Lê Hồng Phong, Nam Định</a><br><br>
+                    30/11/2022<br>
+                    Ngày 23/11/2022, trường THPT chuyên Lê Hồng Phong đã tiếp đón và làm việc với đại diện các trường Đại học của Nga. Đây là sự kiện hướng tới việc tăng cường quan hệ, thúc đẩy sự hợp tác trong lĩnh vực giáo dục - đào tạo giữa các trường của Nga và Việt Nam.
+                    </div>
+                    </div>
+                </div>
+                <br><hr><br>
+                <div class="hdts-article">
+                    <div class="hdts-nd1">    
+                    <div class="hdts-img"><a href="http://thpt-lehongphong-nd.edu.vn/du-hoc-hop-tac-quoc-te-488/tong-hop-dieu-kien-du-hoc-20-quoc-gia-tren-the-gioi-3154.html"><img width="250px" src="img/TTDH4.jpg" alt="logo"></a></div>
+                    <div class="hdts-tieude"><a href="http://thpt-lehongphong-nd.edu.vn/du-hoc-hop-tac-quoc-te-488/tong-hop-dieu-kien-du-hoc-20-quoc-gia-tren-the-gioi-3154.html">Tổng hợp điều kiện du học 20 quốc gia trên thế giới</a><br><br>
+                    24/12/2021<br>
+                    Du học nước ngoài là quyết định quan trọng đối với bất cứ bạn trẻ nào. Mỗi quốc gia sẽ có hệ thống giáo dục khác nhau và mỗi cấp học, mỗi trường học sẽ có những yêu cầu đầu vào cùng với mức chi phí đào tạo khác nhau. Việc hiểu rõ điều kiện du học các nước sẽ giúp bạn có sự cân nhắc lựa chọn điểm đến...
+                    </div>
+                    </div>
+                </div>
+                <br><hr><br>
+                <div class="hdts-article">
+                    <div class="hdts-nd1">    
+                    <div class="hdts-img"><a href="http://thpt-lehongphong-nd.edu.vn/du-hoc-hop-tac-quoc-te-488/huong-nghiep-quoc-te-chon-nganh-chon-truong-%E2%80%9Cdu-hoc-nganh-duoc-nganh-hoc-vinh-quang-cung-thach-thuc%E2%80%9D-3122.html"><img width="250px" src="img/TTDH5.jpg" alt="logo"></a></div>
+                    <div class="hdts-tieude"><a href="http://thpt-lehongphong-nd.edu.vn/du-hoc-hop-tac-quoc-te-488/huong-nghiep-quoc-te-chon-nganh-chon-truong-%E2%80%9Cdu-hoc-nganh-duoc-nganh-hoc-vinh-quang-cung-thach-thuc%E2%80%9D-3122.html">Hướng nghiệp quốc tế chọn ngành - chọn trường: “Du học ngành Dược - Ngành học vinh quang cùng thách thức”</a><br><br>
+                    29/11/2021<br>
+                    </div>
+                    </div>
+                </div>
+                <br><hr><br>
+                <div class="hdts-article">
+                    <div class="hdts-nd1">    
+                    <div class="hdts-img"><a href="http://thpt-lehongphong-nd.edu.vn/chuong-trinh-hop-tac-thong-tin-du-hoc-489/thong-bao-ve-viec-dang-ky-du-tuyen-hoc-bong-di-hoc-tai-lien-bang-nga-nam-2021-2695.html"><img width="250px" src="img/TTDH6.png" alt="logo"></a></div>
+                    <div class="hdts-tieude"><a href="http://thpt-lehongphong-nd.edu.vn/chuong-trinh-hop-tac-thong-tin-du-hoc-489/thong-bao-ve-viec-dang-ky-du-tuyen-hoc-bong-di-hoc-tai-lien-bang-nga-nam-2021-2695.html">Thông báo về việc đăng ký dự tuyển học bổng đi học tại Liên bang Nga năm 2021</a><br><br>
+                    17/02/2021<br>
+                    </div>
+                    </div>
+                </div>
+                <br><hr><br>
+                <div class="hdts-article">
+                    <div class="hdts-nd1">    
+                    <div class="hdts-img"><a href="http://thpt-lehongphong-nd.edu.vn/chuong-trinh-hop-tac-thong-tin-du-hoc-489/hoi-thao-huong-nghiep-quoc-te-chon-nganh-hot-hoc-bong-cao-luong-khung--2663.html"><img width="250px" src="img/TTDH7.jpg" alt="logo"></a></div>
+                    <div class="hdts-tieude"><a href="http://thpt-lehongphong-nd.edu.vn/chuong-trinh-hop-tac-thong-tin-du-hoc-489/hoi-thao-huong-nghiep-quoc-te-chon-nganh-hot-hoc-bong-cao-luong-khung--2663.html">Hội thảo "Hướng nghiệp quốc tế - Chọn ngành hot - Học bổng cao - Lương khủng"</a><br><br>
+                    20/01/2021<br>
+                    Sự kiện do trường THPT Chuyên Lê Hồng Phong kết hợp với Tổ chức Du học & Luyện thi ISTAR tổ chức, với sự góp mặt của các diễn giả là chuyên gia hàng đầu về du học và luyện thi, đại diện trường ĐH quốc tế cùng với các cựu du học sinh xuất sắc đã mang đến nhiều thông tin hữu ích, những góc nhìn sâu sắ...
+                    </div>
+                    </div>
+                </div>
+                <br><hr><br>
+            </article>    
+            <aside>    
+                <div class="hdts-aside">
+                <div class="hdts-aside1">
+                    <div class="hdts-tintieudiem">
+                        <h4><i class="fa-solid fa-bell" ></i>Tin tiêu điểm</h4>
+                    </div>
+                    <div class="hdts-tintieudiem-nd">
+                        <div class="hdts-tintieudiem-nd1">
+                            <div class="hdts-tintieudiem-img"><a href="http://thpt-lehongphong-nd.edu.vn/hoat-dong-hoc-sinh-324/truong-thpt-chuyen-le-hong-phong-to-chuc-chuong-trinh-trai-nghiem-tet-co-truyen-chao-don-xuan-giap-thin-2024-voi-chu-de-%E2%80%9Ctet-ket-noi-xuan-yeu-thuong%E2%80%9D--3729.html"><img width="100px" src="img/TTD1.jpg" alt="logo"></a></div>
+                            <div class="hdts-tintieudiem-tieude"><a href="http://thpt-lehongphong-nd.edu.vn/hoat-dong-hoc-sinh-324/truong-thpt-chuyen-le-hong-phong-to-chuc-chuong-trinh-trai-nghiem-tet-co-truyen-chao-don-xuan-giap-thin-2024-voi-chu-de-%E2%80%9Ctet-ket-noi-xuan-yeu-thuong%E2%80%9D--3729.html">Trường THPT chuyên Lê Hồng Phong tổ chức chương trình Trải n...</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="hdts-tintieudiem-nd1">
+                            <div class="hdts-tintieudiem-img"><a href="http://thpt-lehongphong-nd.edu.vn/tin-tuc-nha-truong-323/chuc-mung-nhung-nguoi-cam-quan-cua-ky-thi-chon-hoc-sinh-gioi-quoc-gia-nam-hoc-2023-2024-3728.html"><img width="100px" src="img/TTD2.jpg" alt="logo"></a></div>
+                            <div class="hdts-tintieudiem-tieude"><a href="http://thpt-lehongphong-nd.edu.vn/tin-tuc-nha-truong-323/chuc-mung-nhung-nguoi-cam-quan-cua-ky-thi-chon-hoc-sinh-gioi-quoc-gia-nam-hoc-2023-2024-3728.html">Chúc mừng những người cầm quân của kỳ thi chọn Học sinh giỏi...</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="hdts-tintieudiem-nd1">
+                            <div class="hdts-tintieudiem-img"><a href="http://thpt-lehongphong-nd.edu.vn/hoat-dong-hoc-sinh-324/-chuyen-muc-khoi-su-sac-xuan-doc-lap-chao-mung-94-nam-ngay-thanh-lap-dang-cong-san-viet-nam-03-02-1930-03-02-2024--3726.html"><img width="100px" src="img/TTD3.jpg" alt="logo"></a></div>
+                            <div class="hdts-tintieudiem-tieude"><a href="http://thpt-lehongphong-nd.edu.vn/hoat-dong-hoc-sinh-324/-chuyen-muc-khoi-su-sac-xuan-doc-lap-chao-mung-94-nam-ngay-thanh-lap-dang-cong-san-viet-nam-03-02-1930-03-02-2024--3726.html">[Chuyên mục khối Sử] - Sắc xuân độc lập chào mừng 94 năm ngà...</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="hdts-tintieudiem-nd1">
+                            <div class="hdts-tintieudiem-img"><a href="http://thpt-lehongphong-nd.edu.vn/tin-tuc-nha-truong-323/vinh-danh-nhung-chien-binh-xuat-sac-nhat-trong-ki-thi-hsgqg-nam-hoc-2023-2024-3725.html"><img width="100px" src="img/TTD4.png" alt="logo"></a></div>
+                            <div class="hdts-tintieudiem-tieude"><a href="http://thpt-lehongphong-nd.edu.vn/tin-tuc-nha-truong-323/vinh-danh-nhung-chien-binh-xuat-sac-nhat-trong-ki-thi-hsgqg-nam-hoc-2023-2024-3725.html">Vinh danh những chiến binh xuất sắc nhất trong Kì thi HSGQG...</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="hdts-tintieudiem-nd1">
+                            <div class="hdts-tintieudiem-img"><a href="http://thpt-lehongphong-nd.edu.vn/tin-tuc-nha-truong-323/hoc-sinh-truong-thpt-chuyen-le-hong-phong-doat-giai-nhat-cuoc-thi-khkt-cap-tinh-nam-hoc-2023-2024-va-tham-du-cuoc-thi-khkt-cap-quoc-gia-3724.html"><img width="100px" src="img/TTD5.jpg" alt="logo"></a></div>
+                            <div class="hdts-tintieudiem-tieude"><a href="http://thpt-lehongphong-nd.edu.vn/tin-tuc-nha-truong-323/hoc-sinh-truong-thpt-chuyen-le-hong-phong-doat-giai-nhat-cuoc-thi-khkt-cap-tinh-nam-hoc-2023-2024-va-tham-du-cuoc-thi-khkt-cap-quoc-gia-3724.html">Học sinh trường THPT chuyên Lê Hồng Phong đoạt giải Nhất cuộ...</a>
+                            </div>
+                        </div>
+                        <hr><br><br>
+                        <div class="hdts-tintieudiem">
+                            <h4><i class="fa-solid fa-bell" ></i>Khoa Học-Công nghệ</h4>
+                        </div>
+                        <div class="hdts-khcn">
+                            <div class="hdts-khcn-nd2">
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="http://thpt-lehongphong-nd.edu.vn/khoa-hoc-cong-nghe-248/nganh-giao-duc-chu-dong-nghien-cuu-su-dung-chatgpt-tri-tue-nhan-tao-3522.html">Ngành Giáo dục chủ động nghiên cứu, sử dụng ChatGPT, trí tuệ nhân tạo</a>
+                            </div>
+                            <div class="hdts-khcn-nd2">
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="http://thpt-lehongphong-nd.edu.vn/khoa-hoc-cong-nghe-248/10-nha-khoa-hoc-viet-nam-co-ten-trong-bang-xep-hang-the-gioi-cua-research-com-3371.html">10 nhà khoa học Việt Nam có tên trong bảng xếp hạng thế giới của research.com</a>
+                            </div>
+                            <div class="hdts-khcn-nd2">
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="http://thpt-lehongphong-nd.edu.vn/khoa-hoc-cong-nghe-248/luat-an-ninh-mang-nghiem-cam-cac-hanh-vi-nao-1973.html">Luật An ninh mạng nghiêm cấm các hành vi nào</a>
+                            </div>
+                            <div class="hdts-khcn-nd2">
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="http://thpt-lehongphong-nd.edu.vn/khoa-hoc-cong-nghe-248/hoc-sinh-truong-lang-nghien-cuu-sang-tao-thuoc-tru-sau-sinh-hoc-1535.html">Học sinh trường làng nghiên cứu sáng tạo thuốc trừ sâu sinh học</a>
+                            </div>
+                            <div class="hdts-khcn-nd2">
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="http://thpt-lehongphong-nd.edu.vn/khoa-hoc-cong-nghe-248/tim-hieu-hoa-hoc-quanh-ta-1417.html">Tìm hiểu hóa học quanh ta</a>
+                            </div>
+                            <br>
+                            <div class="hdts-tintieudiem">
+                                <h4><i class="fa-solid fa-bell" ></i>Hội trường 100 năm</h4>
+                            </div>
+                            <div class="hdts-khcn">
+                                <div class="hdts-khcn-nd2">
+                                    <i class="fa-solid fa-caret-right"></i>
+                                    <a href="http://thpt-lehongphong-nd.edu.vn/hoi-truong-100-nam-494/clip-ra-mat-bst-ao-dai-ke-chuyen-tram-nam-2505.html">Clip ra mắt BST Áo dài kể chuyện trăm năm</a>
+                                </div>
+                                <div class="hdts-khcn-nd2">
+                                    <i class="fa-solid fa-caret-right"></i>
+                                    <a href="http://thpt-lehongphong-nd.edu.vn/hoi-truong-100-nam-494/bo-suu-tap-ao-dai-mang-ten-mai-truong-ke-chuyen-tram-nam--2409.html">Bộ sưu tập Áo dài mang tên "Mái trường kể chuyện trăm năm"</a>
+                                </div>
+                                <div class="hdts-khcn-nd2">
+                                    <i class="fa-solid fa-caret-right"></i>
+                                    <a href="http://thpt-lehongphong-nd.edu.vn/hoi-truong-100-nam-494/phong-su-toa-dam-so-2-nhung-chang-duong-kien-tao-2408.html">Phóng sự tọa đàm số 2 - Những chặng đường kiến tạo</a>
+                                </div>
+                                <div class="hdts-khcn-nd2">
+                                    <i class="fa-solid fa-caret-right"></i>
+                                    <a href="http://thpt-lehongphong-nd.edu.vn/hoi-truong-100-nam-494/phat-bieu-cua-ts-pham-thi-hue-hieu-truong-nha-truong-trong-buoi-gap-mat-dai-dien-bll-cuu-hoc-sinh-cac-khoa-le-hong-phong-nam-dinh-2309.html">Phát biểu của TS Phạm Thị Huệ - Hiệu trưởng nhà trường trong buổi gặp mặt đại diện BLL cựu học sinh các khoá Lê Hồng Phong - Nam Định</a>
+                                </div>
+                                <br>
+                                <div class="hdts-tintieudiem">
+                                    <h4><i class="fa-solid fa-bell" ></i>Liên kết webside</h4>
+                                </div>
+                                <div class="hdts-khcn">
+                                    <div class="hdts-khcn-nd2">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <a href="https://dichvucong.namdinh.gov.vn/portaldvc/Home/default.aspx">Cổng cung cấp dịch vụ công trực tuyến tỉnh Nam Định<br>
+                                        Công ty Niềm tin</a>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </aside>    
+            </div>
+            
+        </div>
+        
+        <footer>
+            <div class="lienhe">
+                <div>
+                <h3>Trường THPT chuyên Lê Hồng Phong</h3>               
+                </div >
+                <div class="icons">
+                <i class="fa-solid fa-map-location-dot" style="color: #FFD43B; padding-right: 8px;"></i>
+                    Địa chỉ: 76 Vị Xuyên, phường Vị Xuyên, thành phố Nam Định, tỉnh Nam Định
+                </div>
+                <div class="icons">
+                <i class="fa-solid fa-phone-volume" style="color: #FFD43B; padding-right: 8px;"></i>
+                    Điện thoại: 0228 3640 297
+                </div>
+                <div class="icons">
+                <i class="fa-solid fa-envelope" style="color: #FFD43B; padding-right: 8px;"></i>
+                    Email: lehongphong@gmail.edu.vn
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/profile.php?id=100076077228658&__tn__=%3C">
+                        <i class="fa-brands fa-square-facebook fa-2x" style="color: #3692d9;"></i>
+                    </a>
+                    <a href="https://youtube.com/@chuyenlhpnd?si=bE_CatIp34FGq6h2">
+                        <i class="fa-brands fa-youtube fa-2x" style="color: #e1475e;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="user">
+                <div class="user-1">
+                    <i class="fa-solid fa-user" style="color: #FFD43B;"></i>
+                    <p>Số người Online:</p>
+                    <a href="">152</a>
+                </div>
+                <div class="user-1">
+                    <i class="fa-solid fa-users" style="color: #FFD43B;"></i>
+                    <p>Tổng số:</p>
+                    <a href="">1097488</a>
+                </div>
+                <div class="user-1">
+                    <p>Copyright 2023 Le Hong Phong High School</p>
+                </div>
+                <div class="user-1">
+                    <p>Thiết kế bởi:</p>
+                    <a href=""> Nhóm WD1013</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

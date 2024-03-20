@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ban Quản lý nội trú</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v19.0" nonce="tGyYQcca"></script>
+    <div class="container">
+        <header>
+            <img class="logo" src="img/logo.jpg" alt="">
+            <div class="huychuong">
+                <img src="img/huychuong1.png" alt="">
+            </div>
+            <div class="header-ip">
+                <div class="phude">
+                    <a href="lienhe.html">
+                        <i class="fa-regular fa-envelope"></i>
+                        Liên Hệ
+                    </a>
+                    <a href="login.html">
+                        <i class="fa-solid fa-user"></i>
+                        Đăng Nhập
+                    </a>
+                </div>
+                <div class="input">
+                    <input placeholder="Tìm kiếm...." width="100px" height="50px" type="search">
+                    <div class="iconsearch">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="main-login">
+                <label for="toggle-sidebar"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" id="toggle-sidebar">
+                <div class="sidebar">
+                    <ul class="menu-list">
+                        <li>
+                            <a href="gioithieu.html">GIỚI THIỆU</a>
+                            <i class="fa-solid fa-plus"></i>
+                            <ul class="submenu-list">
+                                <li><a href="lichsutruong.html">Lịch sử trường</a></li>
+                                <li><a href="truyenthong.html">Truyền thống trường</a></li>
+                                <li><a href="phanthuong.html">Phần thưởng-Danh hiệu</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="tochuc.html">TỔ CHỨC</a>
+                            <i class="fa-solid fa-plus"></i>
+                            <ul class="submenu-list">
+                                <li><a href="#">Đảng Bộ</a></li>
+                                <li><a href="#">Ban Giám Hiệu</a></li>
+                                <li><a href="#">BCH Công Đoàn</a></li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="">THÔNG BÁO-TIN TỨC</a>
+                            <i class="fa-solid fa-plus"></i>
+                            <ul class="submenu-list">
+                                <li><a href="#">Thông Tin Điều Hành</a></li>
+                                <li><a href="#">Tin Tức Nhà Trường</a></li>
+                                <li><a href="#">Hoạt Động HS</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="trangchinh.html">HƯỚNG NGHIỆP&TUYỂN SINH</a>
+                            <i class="fa-solid fa-plus"></i>
+                            <ul class="submenu-list">
+                                <li><a href="#">Hoạt Động Tuyển Sinh</a></li>
+                                <li><a href="#">Hoạt Động Hướng Nghiệp</a></li>
+                                <li><a href="#">Thông Tin Du Học</a></li>
+                                <li><a href="#">Tuyển Sinh Vào Lớp 10</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="banQLNT.html">KHU NỘI TRÚ</a>
+                            <i class="fa-solid fa-plus"></i>
+                            <ul class="submenu-list">
+                                <li><a href="#">Ban Quản Lí</a></li>
+                                <li><a href="#">Nội Quy Khu Nội Trú</a></li>
+                                <li><a href="#">Hoạt Động Nội Trú</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">TÀI NGUYÊN</a>
+                            <i class="fa-solid fa-plus"></i>
+                        </li>
+                        <li><a href="gopy.html">GÓP Ý</a>
+                            <i class="fa-solid fa-plus"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <nav style="width: 100%;">
+
+            <ul class="menu">
+                <li style="padding-left: 40px;"><a href="index.html"><i class="fa-solid fa-house"
+                            style="color: #fff; padding-right: 15px;"></i>TRANG CHỦ</a></li>
+                <li>
+                    <a href="gioithieu.html">GIỚI THIỆU
+                        <i class="fa-solid fa-angle-down" style="color: #fafafa;"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li><a href="lichsutruong.html">Lịch sử trường</a></li>
+                        <li><a href="truyenthong.html">Truyền thống trường</a></li>
+                        <li><a href="phanthuong.html">Phần thưởng-Danh hiệu</a></li>
+                    </ul>
+                </li>
+                <li><a href="tochuc.html">TỔ CHỨC
+                        <i class="fa-solid fa-angle-down" style="color: #fafafa;"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li><a href="#">Đảng Bộ</a></li>
+                        <li><a href="#">Ban Giám Hiệu</a></li>
+                        <li><a href="#">BCH Công Đoàn</a></li>
+                    </ul>
+                </li>
+                <li class="">
+                    <a href="">THÔNG BÁO-TIN TỨC
+                        <i class="fa-solid fa-angle-down" style="color: #fafafa;"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li><a href="#">Thông Tin Điều Hành</a></li>
+                        <li><a href="#">Tin Tức Nhà Trường</a></li>
+                        <li><a href="#">Hoạt Động HS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="trangchinh.html">HƯỚNG NGHIỆP&TUYỂN SINH</a>
+                    <ul class="submenu">
+                        <li><a href="#">Hoạt Động Tuyển Sinh</a></li>
+                        <li><a href="#">Hoạt Động Hướng Nghiệp</a></li>
+                        <li><a href="#">Thông Tin Du Học</a></li>
+                        <li><a href="#">Tuyển Sinh Vào Lớp 10</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="banQLNT.html">KHU NỘI TRÚ</a>
+                    <ul class="submenu">
+                        <li><a href="#">Ban Quản Lí</a></li>
+                        <li><a href="#">Nội Quy Khu Nội Trú</a></li>
+                        <li><a href="#">Hoạt Động Nội Trú</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">HỎI ĐÁP</a>
+                </li>
+                <li><a href="gopy.html">GÓP Ý</a>
+                </li>
+            </ul>
+            <div class="led">
+                <marquee behavior="
+            " direction=""><i class="fa-solid fa-star" style="color: #FFD43B;"></i>SỨ MỆNH: PHÁT HIỆN, BỒI DƯỠNG HỌC
+                    SINH GIỎI GÓP PHẦN ĐÀO TẠO HIỀN TÀI <i class="fa-solid fa-star" style="color: #FFD43B;"></i> GIÁ TRỊ
+                    CỐT LÕI: TRÍ TUỆ, NHÂN CÁCH, TRÁCH NHIỆM, TỰ TÔN, SÁNG TẠO <i class="fa-solid fa-star"
+                        style="color: #FFD43B;"></i> TẦM NHÌN XÂY DỰNG TRƯỜNG CHUYÊN CHẤT LƯỢNG CAO, ĐẠT CHUẨN, VƯƠN TẦM
+                    KHU VỰC</marquee>
+            </div>
+
+        </nav>
+        <div class="banner-login">
+            <img src="img/2022_04_10_09_33_10_bia web t4.png" alt="">
+        </div>
+        <!-- Start Ban Quản Lý -->
+        <article>
+            <div class="banquanly">
+                <div class="background">
+                    <div class="banquanly-menu">
+                        <a href="#" class="banquanly-menu-italic">Trang chủ</a> <span>></span>
+                        <a href="hoatdongnoitru.html" class="banquanly-menu-italic">Hoạt động khu nội trú</a> <span>></span>
+                        <i id="banquanly-menu-italic-blue">Ý thức tự quản của học sinh nội trú</i>
+                    </div>
+                </div>
+                <div class="banquanly-article">
+                    <div class="hoatdongnoitru-vannghe">
+                        <h3>Ý thức tự quản của học sinh nội trú</h3>
+                        <span style="font-style: italic;">16/10/2021</span>
+                        <p>
+                            Về thăm khu nội trú trường THPT chuyên Lê Hồng Phong trong những tháng đầu tiên của năm học mới 2021-2022 chúng tôi thực sự bất ngờ về cuộc sống ổn định, ngăn nắp, nề nếp an toàn của các em học sinh nơi đây. Do ảnh hưởng của dịch bệnh, một số hoạt động học tập, sinh hoạt, vui chơi của khu nội trú bị hạn chế nhưng với ý thức phòng ngừa dịch bệnh, với ý thức tự quản tốt của các em học sinh, nhịp sống thường nhật nơi đây vẫn được diễn ra bình an, ấm áp và tràn đầy năng lượng.
+                        </p>
+                        <p>
+                            Với những cô cậu học trò rời xa gia đình đến với một ngôi trường mới, một nơi sinh sống mọi thứ đều là sự bỡ ngỡ, khó khăn của sự khởi đầu. Để hình thành nên một thói quen tốt, một lối sống tích cực, nề nếp, an toàn, Ban lãnh đạo nhà trường đã thành lập Ban quản lí nội trú, phân công các thầy cô giáo làm giáo viên phụ trách các phòng, xây dựng kế hoạch hoạt động cùng nội quy, quy định cho khu nội trú. Bên cạnh sự quản lí, chăm lo của các thầy cô, cán bộ nhân viên nội trú thì một trong yêu tố quan trọng quyết định thành công trong việc tự lập, tự quản là nằm ở thái độ ý thức của mỗi em học sinh. Xác định được điều đó, nhà trường và các thầy cô, phụ huynh học sinh đã tuyên truyền giáo dục, nhắc nhở, đôn đốc để các em hình thành nên ý thức tự chủ, tự quản.
+                        </p>
+                        <p>
+                            Trước hết là quản lí giờ giấc và chất lượng của việc tự học ở ở khu nội trú. Khác với những học sinh trong thành phố, gần nhà, có điều kiện ở cùng cha mẹ, các em được nhắc nhở, động viên thường xuyên việc học bài, làm bài sau mỗi giờ lên lớp, học sinh nội trú phải tự nhắc mình, đặt mình vào khuôn khổ để không ảnh hưởng đến môi trường tập thể và cũng là có cho mình một thói quen tự học khi về phòng. Trong suốt những tuần học đầu của tháng 9, sau giờ học buổi sáng trên lớp, tất cả các buổi chiều khung thời gian từ 14h -16h30, các em ngồi vào bàn làm bài tập, đọc sách tham khảo, nghiên cứu tài liệu như giờ học chính khóa. Từ đầu tháng 10 nhà trường thêm lịch học buổi chiều vào các ngày 2,4,6 nên giờ tự học buổi chiều chỉ còn trong ngày thứ 3 và thứ 5. Buổi tối giờ tự học bắt đầu từ 19h00 đến 22h00.  Học sinh không ra ngoài khu nội trú sau 19h00 hàng ngày. Trường hợp học sinh ra ngoài khu nội trú vào giờ tự học phải xin phép và ghi tên vào sổ đăng kí ra – vào khu nội trú. Học sinh không làm việc riêng ảnh hưởng đến các bạn khác, không sử dụng điện thoại, máy tính truy cập vào các trang web không phục vụ cho việc học, khi có điện thoại, phải ra ngoài nghe. Trong khoảng thời gian tự học đó, các em luôn được sự quan tâm, đồng hành, chỉ bảo của các thầy cô phụ trách cùng các bác bảo vệ để việc tự học thêm động lực, nghiêm túc và tự quản … Ban đầu mới nghe qua, nhìn qua về thời gian biểu của các em ở khu nội trú, chúng ta có thể ngỡ là thời gian biểu của sinh viên trong môi trường quân đội. Nhưng chúng tôi thiết nghĩ kỉ luật không chỉ tạo nên sức mạnh mà còn tạo nên một tinh thần tự giác, nề nếp, an toàn trong sinh hoạt và hiệu quả học tập.
+                        </p>
+                        <img src="http://img2019.thpt-lehongphong-nd.edu.vn//HDKNT_YThucTuQuan_1.jpg" alt="">
+                        <center><i>Tự học của học sinh nội trú</i></center>
+                        <p>
+                            Với đặc thù của khu nội trú, tự quản của học sinh còn là tự quản lí mọi sinh hoạt của cá nhân trong môi trường tập thể. Những cô cậu học trò trong khu nội trú Lê Hồng Phong, tuy không còn nhỏ tuổi nhưng thực chất vẫn ở cái độ ăn chưa no, lo chưa tới, nay phải hoàn toàn tự lập. Các em phải tự thu xếp việc vệ sinh cá nhân cũng như đảm bảo sạch sẽ môi trường phòng ở và cảnh quan toàn khu nội trú. Với một vài cậu ấm, cô chiêu có lẽ khi lên trường mới thực sự biết thế nào là lau nhà, quét nhà, đổ rác, dọn khu vệ sinh phòng ở, ghi nhật kí phòng trong ngày trực của mình, biết kiểm tra tắt điện, tắt quạt, khóa cửa khi cả phòng cùng ra ngoài, biết sắp xếp quần áo, đồ đạc ngăn nắp, biết sử dụng điện tiết kiệm an toàn… Ngoài việc chăm lo sinh hoạt các nhân, các em sẽ có một buổi lao động chung cho cả phòng trong tháng, phân chia nhau công việc. Nhìn các em ríu rít, chung tay, đồng lòng lau chùi dọn dẹp từ cánh cửa, nền nhà đến mọi vật sáng bóng làm cho thầy cô hân hoan như đang chứng kiến cảnh dọn dẹp nhà cửa mỗi khi tết đến xuân về. Tôi tin rằng với những điều mà các em học tập, rèn luyện được ở nơi ngôi nhà nội trú này sẽ là món quà tặng làm cha mẹ ngạc nhiên về sự tự lập trưởng thành và cũng là bước đệm, tiền đề cho những thành công, lối sống đẹp của các em sau này.
+                        </p>
+                        <img src="http://img2019.thpt-lehongphong-nd.edu.vn//HDKNT_YThucTuQuan_2.jpg" alt="">
+                        <center><i>Học sinh nội trú dọn vệ sinh</i></center>
+                        <p>Tôi đã từng tham gia một bữa ăn trong bếp ăn tập thể cùng các em. Các em ăn cơm đúng giờ, đúng ca, xếp hàng, nhường nhau lấy thức ăn, tự thu dọn chỗ ngồi và bỏ bát đĩa ăn xong vào chậu gọn gàng ngay ngắn. Dẫu biết rằng đó là kĩ năng được hình thành từ thuở mầm non, tiểu học, nhưng tôi biết, có không ít những đứa trẻ cũng bỏ quên luôn khi đi qua thời bán trú của mình. Nhìn cách các em sinh hoạt và nhìn vào thống kê thành tích học tập, đặc biệt là thành tích các giải Quốc gia, Quốc tế của các em học sinh nội trú, tôi thấy thật tự hào và hãnh diện nhận ra rằng hơn một phần ba thế kỉ đã trôi qua, các phòng nội trú Lê Hồng Phong vẫn luôn là cái nôi để nẩy mầm những hạt giống nhân tài cho đất nước. Không ít những nhà chính trị, những doanh nhân, những nhà khoa học, nhà quân sự, những kĩ sư, bác sĩ… đã khôn lớn từ đây. Họ vẫn luôn thầm cảm ơn mái nhà ấm áp, ân tình ân nghĩa – khu nội trú Lê Hồng Phong yêu dấu đã rèn rũa cho họ trưởng thành không chỉ tri thức nhân cách mà có cả ý thức tự giác, tự quản.</p>
+                        <img src="http://img2019.thpt-lehongphong-nd.edu.vn//HDKNT_YThucTuQuan_3.jpg" alt="">
+                        <center><i>Học sinh nội trú trong bữa ăn tập thể</i></center>
+                        <p>
+                            Có công mài sắt, có ngày nên kim; Ngọc bất trác bất thành khí, sự đặt mình vào khuôn khổ một cách tự giác cũng chính là việc nâng cao ý thức tự quản, là tiền đề đến đích vinh quang của mỗi học sinh. Càng chặt chẽ, nghiêm túc thì nề nếp, ý thức tự giác, tự quản sẽ sớm hình thành và học tập, rèn luyện càng nhanh tiến bộ, đến gần hơn với thành công. Tôi tin là vậy. Và chúng tôi sẽ cùng các em xây dựng khu nội trú trở thành ngôi nhà thứ hai ấm áp, an toàn … trong đó không quên nhắc nhở công việc xây dựng tinh thần tự giác, tự quản.
+                        </p>
+
+
+
+
+                        
+                        <div class="phanhoi">
+                            <div class="phanhoi-title">
+                                <button id="button1" onclick="change2()">Gửi phản hồi</button>
+                                <button onclick="change1()" id="button2">Danh sách phản hồi</button>
+                                <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
+                            </div>
+                            <form action="" class="phanhoi-form" id="an">
+                                <table class="phanhoi-form-table" border="1" >
+                                    <tr>
+                                        <th>Tên người gửi <span>(*)</span></th>
+                                        <td><input type="text" placeholder="Tên người gửi" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Email <span>(*)</span></th>
+                                        <td><input type="text" placeholder="Email" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Số điện thoại <span>(*)</span></th>
+                                        <td><input type="text" placeholder="Số điện thoại" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Nội dung<span>(*)</span></th>
+                                        <td><textarea name="" id="" cols="30" rows="10" placeholder="Vui lòng nhập nội dung tại đây..." class="form-control"></textarea></td> 
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><button>Gửi phản hồi</button></td>
+                                    </tr>
+                                </table>
+                            </form>
+                            <form action="" class="phanhoi-form2" id="hien">
+                                <i>Hiện tại chưa có phản hồi. Hãy là người đầu tiền đưa ra phản hồi về bài viết này.</i>
+                            </form>
+                        </div>
+                    </div>
+                    
+
+
+
+
+                    <div class="banquanly-aside">
+                        <div class="td1">
+                            <div class="menu-td1">
+                                <div class="itemAuthorLatest_detail">
+                                    <h4><i class="fa-solid fa-bell" ></i>Tin tiêu điểm</h4>
+                                </div>
+                                <div class="sub-td">
+                                    <div class="sub-td1">
+                                        <a href="http://thpt-lehongphong-nd.edu.vn/hoat-dong-hoc-sinh-324/-chuyen-muc-khoi-su-sac-xuan-doc-lap-chao-mung-94-nam-ngay-thanh-lap-dang-cong-san-viet-nam-03-02-1930-03-02-2024--3726.html"><img src="http://img2019.thpt-lehongphong-nd.edu.vn//2024_01_30_09_12_53_417553952_688762180120049_9146603882880941775_n.jpg"></a>
+                                        <h5><a href="http://thpt-lehongphong-nd.edu.vn/hoat-dong-hoc-sinh-324/-chuyen-muc-khoi-su-sac-xuan-doc-lap-chao-mung-94-nam-ngay-thanh-lap-dang-cong-san-viet-nam-03-02-1930-03-02-2024--3726.html">
+                                            [Chuyên mục khối Sử] - Sắc xuân độc lập chào mừng 94 năm ngà...</a></h5>
+                                    </div><hr>
+                                    <div class="sub-td1">
+                                        <a href="http://thpt-lehongphong-nd.edu.vn/tin-tuc-nha-truong-323/vinh-danh-nhung-chien-binh-xuat-sac-nhat-trong-ki-thi-hsgqg-nam-hoc-2023-2024-3725.html"><img src="http://img2019.thpt-lehongphong-nd.edu.vn//2024_01_30_09_02_10_Presentation1.png"></a>
+                                        <h5><a href="http://thpt-lehongphong-nd.edu.vn/tin-tuc-nha-truong-323/vinh-danh-nhung-chien-binh-xuat-sac-nhat-trong-ki-thi-hsgqg-nam-hoc-2023-2024-3725.html">
+                                            Vinh danh những chiến binh xuất sắc nhất trong Kì thi HSGQG...</a></h5>
+                                    </div><hr>
+                                    <div class="sub-td1">
+                                        <a href="http://thpt-lehongphong-nd.edu.vn/tin-tuc-nha-truong-323/hoc-sinh-truong-thpt-chuyen-le-hong-phong-doat-giai-nhat-cuoc-thi-khkt-cap-tinh-nam-hoc-2023-2024-va-tham-du-cuoc-thi-khkt-cap-quoc-gia-3724.html"><img src="http://img2019.thpt-lehongphong-nd.edu.vn//2024_01_30_08_45_28_422731602_687535303576070_2697582276951690129_n.jpg"></a>
+                                        <h5><a href="http://thpt-lehongphong-nd.edu.vn/tin-tuc-nha-truong-323/hoc-sinh-truong-thpt-chuyen-le-hong-phong-doat-giai-nhat-cuoc-thi-khkt-cap-tinh-nam-hoc-2023-2024-va-tham-du-cuoc-thi-khkt-cap-quoc-gia-3724.html">
+                                            Học sinh trường THPT chuyên Lê Hồng Phong đoạt giải Nhất cuộ...</a></h5>
+                                    </div><hr>
+                                    <div class="sub-td1">
+                                        <a href="http://thpt-lehongphong-nd.edu.vn/tin-tuc-nha-truong-323/tu-hao-thanh-tich-hoc-sinh-gioi-quoc-gia-nam-hoc-2023-2024-3723.html"><img src="http://img2019.thpt-lehongphong-nd.edu.vn//417502221_687073783622222_7483778579421270119_n.jpg"></a>
+                                        <h5><a href="http://thpt-lehongphong-nd.edu.vn/tin-tuc-nha-truong-323/tu-hao-thanh-tich-hoc-sinh-gioi-quoc-gia-nam-hoc-2023-2024-3723.html">
+                                            Tự hào thành tích Học sinh giỏi Quốc gia năm học 2023 - 2024</a></h5>
+                                    </div><hr>
+                                    <div class="sub-td1">
+                                        <a href="http://thpt-lehongphong-nd.edu.vn/tin-tuc-nha-truong-323/mua-hoa-ruc-ro-hoc-sinh-gioi-quoc-gia-nam-hoc-2023-2024-3722.html"><img src="http://img2019.thpt-lehongphong-nd.edu.vn//422418233_686531810343086_8591466275439792794_n.jpg"></a>
+                                        <h5><a href="http://thpt-lehongphong-nd.edu.vn/tin-tuc-nha-truong-323/mua-hoa-ruc-ro-hoc-sinh-gioi-quoc-gia-nam-hoc-2023-2024-3722.html">
+                                            Mùa hoa rực rỡ Học sinh giỏi Quốc gia năm học 2023 - 2024</a></h5>
+                                    </div><hr>
+                                    <br>
+                                    <div class="itemAuthorLatest_detail">
+                                        <h4><i class="fa-solid fa-bell" ></i>Khoa học - Công nghệ</h4>
+                                    </div>
+                                    <div class="sub-td2">
+                                    <div class="a2"><i class="fa-solid fa-caret-right"></i><li>
+                                        <a href="http://thpt-lehongphong-nd.edu.vn/khoa-hoc-cong-nghe-248/nganh-giao-duc-chu-dong-nghien-cuu-su-dung-chatgpt-tri-tue-nhan-tao-3522.html">
+                                        Ngành Giáo dục chủ động nghiên cứu, sử dụng ChatGPT, trí tuệ nhân tạo</a></li></div>
+                                    <div class="a2"><i class="fa-solid fa-caret-right"></i><li>
+                                        <a href="http://thpt-lehongphong-nd.edu.vn/khoa-hoc-cong-nghe-248/10-nha-khoa-hoc-viet-nam-co-ten-trong-bang-xep-hang-the-gioi-cua-research-com-3371.html">
+                                        10 nhà khoa học Việt Nam có tên trong bảng xếp hạng thế giới của research.com</a></li></div>
+                                    <div class="a2"><i class="fa-solid fa-caret-right"></i><li>
+                                        <a href="http://thpt-lehongphong-nd.edu.vn/khoa-hoc-cong-nghe-248/luat-an-ninh-mang-nghiem-cam-cac-hanh-vi-nao-1973.html">
+                                        Luật An ninh mạng nghiêm cấm các hành vi nào</a></li></div>
+                                    <div class="a2"><i class="fa-solid fa-caret-right"></i><li>
+                                        <a href="http://thpt-lehongphong-nd.edu.vn/khoa-hoc-cong-nghe-248/hoc-sinh-truong-lang-nghien-cuu-sang-tao-thuoc-tru-sau-sinh-hoc-1535.html">
+                                        Học sinh trường làng nghiên cứu sáng tạo thuốc trừ sâu sinh học</a></li></div>
+                                    <div class="a2"><i class="fa-solid fa-caret-right"></i><li>
+                                        <a href="http://thpt-lehongphong-nd.edu.vn/khoa-hoc-cong-nghe-248/tim-hieu-hoa-hoc-quanh-ta-1417.html">
+                                        Tìm hiểu hóa học quanh ta</a></li></div>
+                                    </div>
+                                    <br>
+                                    <div class="itemAuthorLatest_detail">
+                                        <h4><i class="fa-solid fa-bell" ></i>Hội trường 100 năm</h4>
+                                    </div>
+                                    <div class="sub-td2">
+                                        <div class="a2"><i class="fa-solid fa-caret-right"></i><li>
+                                            <a href="http://thpt-lehongphong-nd.edu.vn/hoi-truong-100-nam-494/clip-ra-mat-bst-ao-dai-ke-chuyen-tram-nam-2505.html">
+                                            Clip ra mắt BST Áo dài kể chuyện trăm năm</a></li></div>
+                                        <div class="a2"><i class="fa-solid fa-caret-right"></i><li>
+                                            <a href="http://thpt-lehongphong-nd.edu.vn/hoi-truong-100-nam-494/bo-suu-tap-ao-dai-mang-ten-mai-truong-ke-chuyen-tram-nam--2409.html">
+                                            Bộ sưu tập Áo dài mang tên "Mái trường kể chuyện trăm năm"</a></li></div>
+                                        <div class="a2"><i class="fa-solid fa-caret-right"></i><li>
+                                            <a href="http://thpt-lehongphong-nd.edu.vn/hoi-truong-100-nam-494/phong-su-toa-dam-so-2-nhung-chang-duong-kien-tao-2408.html">
+                                            Phóng sự tọa đàm số 2 - Những chặng đường kiến tạo</a></li></div>
+                                        <div class="a2"><i class="fa-solid fa-caret-right"></i><li>
+                                            <a href="http://thpt-lehongphong-nd.edu.vn/hoi-truong-100-nam-494/phat-bieu-cua-ts-pham-thi-hue-hieu-truong-nha-truong-trong-buoi-gap-mat-dai-dien-bll-cuu-hoc-sinh-cac-khoa-le-hong-phong-nam-dinh-2309.html">
+                                            Phát biểu của TS Phạm Thị Huệ - Hiệu trưởng nhà trường trong buổi gặp mặt đại diện BLL cựu học sinh các khoá Lê Hồng Phong - Nam Định</a></li></div>
+                                    </div>
+                                    <br>
+                                    <div class="itemAuthorLatest_detail">
+                                    <h4><i class="fa-solid fa-bell" ></i>Liên kết website</h4>
+                                </div>
+                                <div class="sub-td2">
+                                    <div class="a3"><li>
+                                        <a href="https://dichvucong.namdinh.gov.vn/portaldvc/Home/default.aspx">
+                                        Cổng cung cấp dịch vụ công trực tuyến tỉnh Nam Định</a></li></div>
+                                </div>
+                                <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="250" data-numposts="5"></div>
+                            </div>
+                        </div>
+                </div>    
+            </div>
+            <!-- End Ban Quản Lý -->
+        </article>
+        <aside></aside>
+        <footer>
+            <div class="lienhe">
+                <div>
+                <h3>Trường THPT chuyên Lê Hồng Phong</h3>               
+                </div >
+                <div class="icons">
+                <i class="fa-solid fa-map-location-dot" style="color: #FFD43B;"></i>
+                Địa chỉ: 76 Vị Xuyên, phường Vị Xuyên, thành phố Nam Định, tỉnh Nam Định
+                </div>
+                <div class="icons">
+                <i class="fa-solid fa-phone-volume" style="color: #FFD43B;"></i>
+                Điện thoại: 0228 3640 297
+                </div>
+                <div class="icons">
+                <i class="fa-solid fa-envelope" style="color: #FFD43B;"></i>
+                Email: lehongphong@gmail.edu.vn
+                </div>
+            </div>
+            <div class="user">
+                <div class="user-1">
+                    <i class="fa-solid fa-user" style="color: #FFD43B;"></i>
+                    <p>Số người Online:</p>
+                    <a href="">152</a>
+                </div>
+                <div class="user-1">
+                    <i class="fa-solid fa-users" style="color: #FFD43B;"></i>
+                    <p>Tổng số:</p>
+                    <a href="">1097488</a>
+                </div>
+                <div class="user-1">
+                    <p>Copyright 2023 Le Hong Phong High School</p>
+                </div>
+                <div class="user-1">
+                    <p>Thiết kế bởi:</p>
+                    <a href=""> Nhóm WD1013</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+<script>
+    function hien() {
+        document.getElementById('an').style.display = "none";
+        document.getElementById('hien').style.display = "block";
+    }
+    function changeColor() {
+        document.getElementById('button1').style.background = "#F1F1F1";
+        document.getElementById('button1').style.color = "black";
+        document.getElementById('button2').style.background = "#F0B260";
+        document.getElementById('button2').style.color = "white";
+    }
+    function change1() {
+        hien();
+        changeColor();
+    }
+    function hien1() {
+        document.getElementById('hien').style.display = "none";
+        document.getElementById('an').style.display = "block";
+    }
+    function changeColor1() {
+        document.getElementById('button2').style.background = "#F1F1F1";
+        document.getElementById('button2').style.color = "black";
+        document.getElementById('button1').style.background = "#F0B260";
+        document.getElementById('button1').style.color = "white";
+    }
+    function change2() {
+        hien1();
+        changeColor1();
+    }
+
+</script>
+</body>
+</html>
